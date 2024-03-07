@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoone8d3.eot?esr9ov');
+  src:  url('../fonts/icomoone8d3.eot?esr9ov#iefix') format('embedded-opentype'),
+    url('../fonts/icomoone8d3.ttf?esr9ov') format('truetype'),
+    url('../fonts/icomoone8d3.woff?esr9ov') format('woff'),
+    url('../fonts/icomoone8d3.svg?esr9ov#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-004-phone-call:before {
+  content: "\f103";
+}
+.icon-001-right-arrow:before {
+  content: "\f100";
+}
+.icon-005-pin:before {
+  content: "\f104";
+}
+.icon-013-briefcase:before {
+  content: "\f10c";
+}
+.icon-002-quote:before {
+  content: "\f101";
+}
+.icon-006-play:before {
+  content: "\f105";
+}
+.icon-007-document:before {
+  content: "\f106";
+}
+.icon-014-bag:before {
+  content: "\f10d";
+}
+.icon-012-reply:before {
+  content: "\f10b";
+}
+.icon-009-group:before {
+  content: "\f108";
+}
+.icon-017-anchor:before {
+  content: "\f110";
+}
+.icon-008-atomic:before {
+  content: "\f107";
+}
+.icon-023-plus:before {
+  content: "\f116";
+}
+.icon-010-heart:before {
+  content: "\f109";
+}
+.icon-003-envelope:before {
+  content: "\f102";
+}
+.icon-018-magic-wand:before {
+  content: "\f111";
+}
+.icon-016-check:before {
+  content: "\f10f";
+}
+.icon-022-invest:before {
+  content: "\f115";
+}
+.icon-021-user:before {
+  content: "\f114";
+}
+.icon-015-ribbon:before {
+  content: "\f10e";
+}
+.icon-020-event:before {
+  content: "\f113";
+}
+.icon-011-like:before {
+  content: "\f10a";
+}
+.icon-019-shield:before {
+  content: "\f112";
+}
+.icon-024-call:before {
+  content: "\f117";
+}

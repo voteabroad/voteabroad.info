@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <base href="/"> -->
+    <base href="https://voteabroad.github.io/voteabroad.info/" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Голосуй за рубежом!</title>
+    <meta name="description" content="">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicons/site.webmanifest">
+    <link rel="mask-icon" href="assets/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KKS65X5QT0"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){ dataLayer.push(arguments); }
+      gtag('js', new Date());
+    
+      gtag('config', 'G-KKS65X5QT0');
+    </script>
+    
+    <!-- OpenGraph -->
+    <meta property="og:locale" content="ru_RU" />
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="https://voteabroad.info/">
+    <meta property="og:title" content="Голосуй за рубежом!"/>
+    <meta name="twitter:card" content="summary" />
+    <meta property="twitter:image" content="https://voteabroad.today/assets/images/preview_square.png">
+    <meta property="og:image" content="https://voteabroad.today/assets/images/previewvote.png">
+    <meta property="og:url" content="https://voteabroad.today/" />
+    <meta property="og:description" content="Узнай где и как проголосовать на выборах в госдуму 19 сентября 2021">
+
+
+    <!-- Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+        rel="stylesheet">
+
+    <!-- Css-->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
+
+    <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="assets/css/vegas.min.css">
+    <link rel="stylesheet" href="assets/css/nouislider.min.css">
+    <link rel="stylesheet" href="assets/css/nouislider.pips.css">
+    <link rel="stylesheet" href="assets/css/polimark.css">
+    <link rel="stylesheet" href="assets/css/gilroy-fonts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-toast-plugin/1.3.2/jquery.toast.min.css" integrity="sha512-wJgJNTBBkLit7ymC6vvzM1EcSWeM9mmOu+1USHaRBbHkm6W9EgM0HY27+UtUaprntaYQJF75rc8gjxllKs5OIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <!-- Template styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+
+    <div class="preloader">
+        <img src="assets/images/loader.png" class="preloader__image" alt="">
+    </div><!-- /.preloader -->
+
+    <div class="page-wrapper">
+
+                <div class="site-header__header-one-wrap two clearfix">
+            <header class="main-nav__header-one two">
+                <div class="container">
+                    <nav class="header-navigation two stricky">
+                        <div class="container-box clearfix">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="main-nav__left main-nav__left_one float-left">
+                                <div class="logo_one">
+                                    <img src="assets/images/icon.png" style="border-radius:100%" width="50" alt="">
+                                </div>
+                                <a href="#" class="side-menu__toggler">
+                                    <i class="fa fa-bars"></i>
+                                </a>
+                            </div>
+
+                            <div class="main-nav__main-navigation float-right">
+                                <ul class="main-nav__navigation-box float-left">
+                                    <li><a href="#top-block">Главная</a></li>
+                                    <!-- <li><a href="results.html">Результаты экзитпола</a></li> -->
+                                    <!-- <li><a href="events.html">Акции за честные выборы</a></li> -->
+                                    <li><a href="#about-block">О проекте</a></li>
+                                </ul>
+                            </div><!-- /.navbar-collapse -->
+                            
+                        </div>
+                    </nav>
+                </div>
+            </header>
+        </div>
+        
+        
+        <section class="main-slider-two" id="top-block">
+            <div class="main-slider-two-bg"
+                style="background-image: url(assets/images/main-slider/main-slider-two-bg.jpg)"></div>
+            <div class="main-slider-two-shape-1"
+                style="background-image: url(assets/images/main-slider/main-slider-two-shape-1-bg.png)"></div>
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="main-slider-two-left-content">
+                            <h2 data-frontendeditor="tv-header_title">Голосуй за рубежом!</h2>
+                            <h4 data-frontendeditor="tv-header_text"><span style="color: rgb(255, 255, 255);" data-mce-style="color: #ffffff;">Узнай где и как проголосовать <br>на выборах Президента Российской Федерации </span><span style="color: rgb(255, 255, 255);" data-mce-style="color: #ffffff;">в Марте 2024</span></h4>
+                        </div>
+                        <!-- <div class="main-slider-two-buttons">
+                            <a href="#watching-block" class="thm-btn">
+                                Результаты проекта
+                            </a>
+                            <a href="/events.html" class="thm-btn">
+                                Акции за честные выборы
+                            </a>
+                        </div> -->
+                        <div class="mobile-nav__social">
+                            <a target="_blank" href="//facebook.com/voteabroad"><i class="fab fa-facebook-f"></i></a>
+                            <a target="_blank" href="//t.me/voteabroad"><i class="fab fa-telegram"></i></a>
+                            <a target="_blank" href="//instagram.com/voteabroad"><i class="fab fa-instagram"></i></a>
+                            <a target="_blank" href="//twitter.com/voteabroad_info"><i class="fab fa-twitter"></i></a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- <section class="donation_featured_banner_two" id="vote-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="mission_and_vission_title" style="margin-bottom:40px">
+                            <h3 data-frontendeditor="tv-home_title1">Где вы можете проголосовать?</h3>
+                        </div>
+                        <iframe src="
+                        https://www.google.com/maps/d/u/0/embed?mid=1JLRFVVCO8yUTL_T90LI4ZMzy-TPiqJg&z=2
+                        " width="100%" height="550" style="display:block;margin:auto;max-width:100%"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+         -->
+
+<!--          
+        <section class="donation_featured_banner_two" id="how-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="mission_and_vission_title">
+                            <h3 data-frontendeditor="tv-home_title2">Как россиянину проголосовать за рубежом?</h3>
+                        </div>
+                    </div>  
+                </div>
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6">
+
+                        <div class="donation_featured_banner wow fadeInUp animated" data-wow-delay="300ms" >
+                            <ul class="featured_banner_list list-unstyled">
+                                <li>
+                                    <div class="icon">
+                                        <span class="icon-016-check"></span>
+                                    </div>
+                                    <div class="content">
+                                        <h3 data-frontendeditor="tv-home_list_title2">В посольствах и консульствах</h3>
+                                        <p data-frontendeditor="tv-home_list_text2"><span style="text-decoration: underline;" data-mce-style="text-decoration: underline;">Кто может голосовать на зарубежных участках?</span><br>Все, у кого есть <strong>загранпаспорт</strong>. Предварительная регистрация и наличие прописки не требуется. Можно голосовать с просроченным паспортом (п.13 <a data-mce-href="http://cikrf.ru/news/relevant/2011/04/06/post_sud.pdf" href="http://cikrf.ru/news/relevant/2011/04/06/post_sud.pdf">Постановления Пленума Верховного Суда РФ от 31.03.2011 №5</a>: “истечение срока действия документа не означает ... утрату избирательных прав и права на участие в голосовании”).<strong><br><br></strong><span style="text-decoration: underline;" data-mce-style="text-decoration: underline;">Где я могу проголосовать?</span><strong><br></strong>Ближайший участок можно найти на <a href="#vote-block" data-mce-href="#vote-block"><strong>карте </strong>сверху</a>. Уже идут досрочные выездные голосования! Возьмите с собой медицинскую маску.<br><br><span style="text-decoration: underline;" data-mce-style="text-decoration: underline;">За кого я буду голосовать?</span><br>Бюллетень за партии одинаковый на всех участках. По одномандатному бюллетеню вы проголосуете за кандидата округа, к которому <strong>привязан</strong> участок. Название привязанного округа можно посмотреть на <a href="#vote-block" data-mce-href="#vote-block"><strong>карте</strong> сверху</a>.<br><br><span style="text-decoration: underline;" data-mce-style="text-decoration: underline;">Когда я могу голосовать?</span><br>Основные участки будут работать <strong>19 сентября. </strong>Уже проходят дни выездного досрочного голосования в некоторых странах! Информацию можно найти на <a href="#vote-block" data-mce-href="#vote-block"><strong>карте</strong> сверху</a>.<br><br><span style="text-decoration: underline;" data-mce-style="text-decoration: underline;">Где получить рекомендацию, за кого голосовать?</span><br>Можно получить рекомендацию на сайте <a href="https://votesmart.appspot.com/" target="_blank" rel="noopener" data-mce-href="https://votesmart.appspot.com/">Умного Голосования</a> для своей страны проживания.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+
+                        <div class="donation_featured_banner_two_single wow fadeInUp animated" data-wow-delay="100ms" >
+                            <ul class="featured_banner_list list-unstyled">
+                                <li>
+                                    <div class="icon">
+                                        <span class="icon-016-check"></span>
+                                    </div>
+                                    <div class="content">
+                                        <h3 data-frontendeditor="tv-home_list_title1">Дистанционно</h3>
+                                        <p data-frontendeditor="tv-home_list_text1">Регистрация на онлайн голосование <strong>закончилась! </strong>Если не успели записаться, голосуйте в консульствах и посольствах.<br><span style="text-decoration: underline;" data-mce-style="text-decoration: underline;"><strong><br></strong>Кто может голосовать онлайн?</span> <br>Граждане РФ с регистрацией <strong>в Москве, Севастополе, в Курской, Мурманской, Нижегородской, Ростовской </strong>или<strong> Ярославской области.</strong><br><br><span style="text-decoration: underline;" data-mce-style="text-decoration: underline;">Кому рекомендуем голосовать онлайн?</span><br>Соотечественникам из <strong>Москвы </strong>(очень конкурентный округ) и тем, кто <strong>не может прийти в посольство/консульство</strong> в дни голосования.<br><br><span style="text-decoration: underline;" data-mce-style="text-decoration: underline;">Нужно ли регистрироваться?</span><br>Да, для голосования онлайн <strong>до 13 сентября</strong> подайте заявление на дистанционное голосование на сайте <a data-mce-href="https://www.gosuslugi.ru/" href="https://www.gosuslugi.ru/" target="_blank" rel="noopener"><strong>Госуслуги</strong></a>.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </section> -->
+
+        <!-- <section class="anoucement" id="watching-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="anoucement_inner">
+                            <div class="block-title text-left">
+                                <h2 data-frontendeditor="tv-home_obs_title">Результаты проекта</h2>
+                                <div class="row">
+                                    <div class="col-xl-8 col-lg-6" data-frontendeditor="tv-home_obs_text">
+                                        <p class="block-title-text">Почти <strong>300 наблюдателей</strong> в <strong>45 странах</strong> и <strong>150 волонтеров экзитполов</strong>&nbsp;в <strong>17 странах</strong> <a data-mce-href="https://t.me/voteabroad/67" href="https://t.me/voteabroad/67">проконтролировали</a> голосование в посольствах / консульствах и <a data-mce-href="https://t.me/voteabroad/84" href="https://t.me/voteabroad/84">завели диалог</a> с соотечественниками за рубежом.<br><br>Практически везде, где они присутствовали, победу одержали кандидаты от Умного Голосования и партия КПРФ, зачастую с перевесом в 2-10 раз. В Томском округе №181 зарубежные избиратели оказали <a data-mce-href="https://t.me/voteabroad/101" href="https://t.me/voteabroad/101">решающее влияние</a> на результат, обеспечив победу кандидату от Умного Голосования.<br><br>Мы начали публиковать <a data-mce-href="https://voteabroad.info/results.html" href="https://voteabroad.info/results.html" title="Результаты экзитполов">графики всех экзитполов</a> и аналитику результатов голосования на зарубежных участках.<br><br>Подпишитесь на наши соц сети, чтобы следить за публикацией результатов аналитики: <a href="https://t.me/voteabroad" data-mce-href="https://t.me/voteabroad">Телеграм</a> , <a href="https://www.facebook.com/voteabroad" data-mce-href="https://www.facebook.com/voteabroad">Фейсбук</a> , <a href="https://www.instagram.com/voteabroad/" data-mce-href="https://www.instagram.com/voteabroad/">Инстаграм</a> , <a data-mce-href="https://twitter.com/voteabroad_info" href="https://twitter.com/voteabroad_info">Твиттер</a></p>                                    </div>
+                                </div>
+                            </div>
+                            <div class="anoucement_inner_megaphone">
+                                <img src="assets/images/resources/megaphone-img.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        
+        
+        
+        <section class="about_one two" id="about-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="about_one_left">
+                            <div class="block-title text-left">
+                                <!-- <h4>О проекте</h4> -->
+                                <h2 data-frontendeditor="1, tv-home_about2_h2">О проекте</h2>
+                                <p class="block-title-text" data-frontendeditor="1, tv-home_about2_title">
+                                    <span style="font-size: 14pt;" data-mce-style="font-size: 14pt;"><span style="color: var(--thm-gray); font-family: var(--thm-font);" data-mce-style="color: var(--thm-gray); font-family: var(--thm-font);">Мы - свободные люди и независимые активисты из России, живущие в Европе, Великобритании, США, Канаде, Австралии, Новой Зеландии и других уголках планеты. Нас сотни. Среди нас люди разных профессий, политических взглядов. Мы объединились для защиты демократических и общечеловеческих ценностей, прав и свобод, которых <br>достойна наша страна.<br><br>Активное участие в выборах - фундамент политических изменений и будущей демократии в России. Поэтому мы запустили проект по информированию о голосовании на выборах в Государственную Думу в сентябре.<br><br></span>Мы считаем, что политическая пассивность разрушает гражданское общество и способствует скатыванию государственного строя в диктатуру. Мы категорически против репрессий, цензуры и гонений на журналистов и политиков. Нам больно смотреть на отсутствие нормального здравоохранения. Нам страшно, что домашнее насилие в России декриминализировано и добиться защиты от него очень сложно. Несмотря на все преграды, только мы сами можем добиваться политической конкуренции в парламенте, который примет новые законы.</span><br>                                </p>
+                            </div>
+                            <div class="about_one_left_text" data-frontendeditor="1, tv-home_about2_text">
+                                <p><br></p>                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="about_one_right">
+                            <div class="about_one_right_img">
+                                <img src="assets/images/about/about-one-img-1.jpg" alt="">
+                                <div class="about_one_right_last_img">
+                                    <img src="assets/images/about/about-one-img-2.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="site_footer_three" style="margin-top: 0">
+            <div class="container">
+                <div class="site_footer_three_bottom">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-6">
+                            <div class="footer-widget__column footer_widget__stay_connected wow fadeInUp animated" data-wow-delay="100ms">
+                                <div class="site_footer_two_bottom_title">
+                                    <h3 data-frontendeditor="1, tv-home_about_title">О проекте</h3>
+                                </div>
+                                <p class="stay_connected_text" data-frontendeditor="1, tv-home_about_text">
+                                    Информируем о выборах тех, кто голосует за рубежом. Организуем наблюдение на зарубежных участках.                                </p>
+                                <a style="display:block;line-height:1.2" href="//www.freepik.com" target="_blank">Фоновое изображение от macrovector / Freepik</a>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-6">
+                            <div class="footer-widget__column footer-widget__links_two three wow fadeInUp animated" data-wow-delay="200ms">
+                                <div class="site_footer_two_bottom_title">
+                                    <h3>Меню</h3>
+                                </div>
+                                <ul class="footer-widget__links_two_list list-unstyled">
+                                    <li><a href="/#top-block">Главная</a></li>
+                                    <li><a href="/#about-block">О проекте</a></li>
+                                    <!-- <li><a href="/#watching-block">Результаты</a></li> -->
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6">
+                            <div class="footer-widget__column footer-widget__our_campaign three wow fadeInUp animated" data-wow-delay="300ms">
+                                
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-6">
+                            <div class="site_footer_three_top__social wow fadeInUp animated" data-wow-delay="200ms"
+                                style="float: right" 
+                            >
+                                <a target="_blank" href="//facebook.com/voteabroad"><i class="fab fa-facebook-f"></i></a>
+                                <a target="_blank" href="//t.me/voteabroad"><i class="fab fa-telegram"></i></a>
+                                <a target="_blank" href="//instagram.com/voteabroad"><i class="fab fa-instagram"></i></a>
+                                <a target="_blank" href="//twitter.com/voteabroad_info"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    </div><!-- /.page-wrapper -->
+
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
+
+    <div class="mobile-nav__wrapper">
+        <div class="mobile-nav__overlay side-menu__toggler mobile-nav__toggler"></div>
+        <div class="mobile-nav__content">
+            <span class="mobile-nav__close side-menu__toggler mobile-nav__toggler">
+                <i class="fa fa-times"></i>
+            </span>
+           
+            <!-- /.logo-box -->
+            <div class="mobile-nav__container clearfix"></div>
+            <!-- /.mobile-nav__container -->
+            <!-- <ul class="mobile-nav__contact list-unstyled">
+                <li>
+                    <i class="icon-003-envelope"></i>
+                    <a href="mailto:needhelp@polimark.com">needhelp@polimark.com</a>
+                </li>
+                <li>
+                    <i class="icon-004-phone-call"></i>
+                    <a href="tel:666-888-0000">666 888 0000</a>
+                </li>
+            </ul> --><!-- /.mobile-nav__contact -->
+            <div class="mobile-nav__top">
+                <div class="mobile-nav__social">
+                    <a target="_blank" href="//facebook.com/voteabroad"><i class="fab fa-facebook-f"></i></a>
+                    <a target="_blank" href="//t.me/voteabroad"><i class="fab fa-telegram"></i></a>
+                    <a target="_blank" href="//instagram.com/voteabroad"><i class="fab fa-instagram"></i></a>
+                </div><!-- /.mobile-nav__social -->
+            </div><!-- /.mobile-nav__top -->
+        </div>
+    </div>
+
+
+
+    <div class="search-popup">
+        <div class="search-popup__overlay custom-cursor__overlay">
+            <div class="cursor"></div>
+            <div class="cursor-follower"></div>
+        </div><!-- /.search-popup__overlay -->
+        <div class="search-popup__inner">
+            <form action="#" class="search-popup__form">
+                <input type="text" name="search" placeholder="Type here to Search....">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal" id="modal">
+        <div class="modal-title">
+            
+        </div>
+        <div class="modal-block">
+            <table></table>
+            <div class="modal-block-content">
+                
+            </div>
+        </div>
+    </div>
+  
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/TweenMax.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/typed-2.0.11.js"></script>
+    <script src="assets/js/vegas.min.js"></script>
+    <script src="assets/js/jquery.validate.min.js"></script>
+    <script src="assets/js/bootstrap-select.min.js"></script>
+    <script src="assets/js/countdown.min.js"></script>
+    <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.min.js"></script>
+    <script src="assets/js/nouislider.min.js"></script>
+    <script src="assets/js/isotope.js"></script>
+    <script src="assets/js/appear.js"></script>
+    <script src="assets/js/jarallax.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-toast-plugin/1.3.2/jquery.toast.min.js" integrity="sha512-zlWWyZq71UMApAjih4WkaRpikgY9Bz1oXIW5G0fED4vk14JjGlQ1UmkGM392jEULP8jbNMiwLWdM8Z87Hu88Fw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://maps.google.com/maps/api/js?key=AIzaSyATY4Rxc8jNvDpsK8ZetC7JyN4PFVYGCGM"></script>
+
+
+    <!-- template scripts -->
+    <script src="assets/js/theme.js"></script>
+
+    <script>
+        $('.js-data-example-ajax').select2({
+            placeholder: "Начните вводить страну",
+            ajax: {
+                url: 'ajax.json',
+                data: function (params) {
+                    var query = {
+                        search: params.term,
+                        type: 'public'
+                    }
+                
+                    // Query parameters will be ?search=[term]&type=public
+                    return query;
+                }
+            }
+        });
+        
+        $(document).on('submit', '#search_country', function(){
+            var val = $(this).parent().find('select').val()
+            if(val === null) {
+                $.toast({
+                    heading: 'Ошибка',
+                    text: 'Выберите страну',
+                    icon: 'error',
+                    position: 'bottom-right'
+                })
+                return false
+            }
+            
+            $.get('ajax.json?method=content&search='+val, function(data) {
+                var title = $('#modal .modal-title')
+                var table = $('#modal .modal-block table')
+                var content = $('#modal .modal-block-content')
+                title.html(data.pagetitle)
+                content.html(data.content)
+                table.html('<tr><th>Избирательный округ:</th><td> '+data.okrug+'</td></tr>' 
+                + '<tr><th>Номер округа:</th><td> '+data.number+'</td></tr>' 
+                + '<tr><th>Число избирателей в посольстве:</th><td> '+data.people+'</td></tr>')
+                
+                $.fancybox.open({ src: '#modal' });
+            })
+            
+            return false
+        })
+    </script>
+    
+    <style>
+        #jGrowl {
+            display: none !important;
+        }
+        .select2-container,
+        .select2-container .select2-selection--single {
+            height: 52px;
+        }
+        .select2-container {
+            width: 320px !important;
+            max-width: 100%;
+        }
+        .select2-container--default .select2-selection--single .select2-selection__arrow {
+            top: 0 !important;
+            bottom: 0;
+            right: 10px;
+            margin: auto;
+        }
+        .select2-results__option {
+            font-size: 14px;
+            padding: 7px 10px;
+            line-height: 1.3;
+        }
+        .select2-search--dropdown .select2-search__field {
+            padding: 4px 10px;
+        }
+        .select2-container--default .select2-selection--single .select2-selection__rendered {
+            line-height: 52px;
+            text-align: left;
+            padding-left: 20px;
+        }
+        .modal {
+            display: none;
+            width: 640px;
+            max-width: 100%;
+            max-height: 710px;
+        }
+        .modal-title {
+            font-size: 32px;
+            line-height: 1.2;
+            font-weight: bold;
+        }
+        .modal-block {
+            line-height: 1.2;
+            margin-top: 30px;
+        }
+        .modal-block table th,
+        .modal-block table td {
+            width: 100%;
+            vertical-align: top;
+            padding: 10px 10px;
+        }
+        .modal-block table th {
+            width: 40%;
+        }
+        .modal-block-content {
+            margin-top: 30px;
+        }
+        .select2-container--default .select2-selection--single {
+            border: none;
+        }
+        .stricked-menu .logo_one {
+            padding: 18.5px 0;
+        }
+        .main-slider-two .mobile-nav__social {
+            margin-top: 20px;
+        }
+        .main-slider-two .mobile-nav__social a {
+            font-size: 32px;
+            margin-right: 15px;
+        }
+        .main-slider-two .mobile-nav__social a:last-child {
+            margin-right: 0;
+        }
+        .main-slider-two .mobile-nav__social a:hover {
+            color: #332e98;
+        }
+        .main-slider-two-buttons {
+            margin-top: 20px;
+        }
+        .main-slider-two-buttons a {
+            background: transparent;
+            border: 2px solid #fff;
+            padding-right: 30px;
+            margin-bottom: 3px;
+        }
+        .main-slider-two-buttons a:hover {
+            background: #fff;
+            color: var(--thm-primary)
+        }
+        .main-slider-two-bg:before {
+            background: rgba(0, 154, 162, 64%);
+        }
+        .main-slider-two-left-content h4 {
+            line-height: 1.2;
+        }
+        .mission_and_vission_title{
+            margin-bottom: 50px;
+        }
+        
+        .block-title h2{
+            text-transform: none !important;
+        }
+        
+        .main-nav__header-one.two .main-nav__main-navigation .main-nav__navigation-box > li > a{
+            text-transform: none;
+        }
+        
+        @media only screen and (max-width: 576px) {
+            .main-slider-two {
+                padding-top: 126px;
+            }
+            
+            .anoucement_btn a{
+                width: auto !important;
+            }
+        }
+    </style>
+</body>
+</html>
