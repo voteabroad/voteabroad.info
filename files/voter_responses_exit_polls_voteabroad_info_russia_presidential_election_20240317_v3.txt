@@ -1,5 +1,5 @@
 # see detailed explanation of the data in https://docs.google.com/spreadsheets/d/1hTn8J7K8WJbWYvmoo10GQWm__2cTVg4dCsM_ZocbgiQ/edit#gid=0 
-# timestamp in the CSV is UTC except when data_source = 6 it is GMT+9(Tokyo)-2 = GTM+7 (this is different from Google Sheet)
+# timestamp in the CSV is UTC except when data_source = 6 it is GMT+9(Tokyo)-1 = GTM+8 (this is different from Google Sheet)
 # volunteer ending with 000 = voter filled in QR code single-use survey form themselves
 
 cols = ['voting_station', 'country', 'city', 'data_source', 'volunteer', 'timestamp',  
