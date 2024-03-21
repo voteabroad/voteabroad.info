@@ -3,7 +3,7 @@
 # volunteer ending with 000 = voter filled in QR code single-use survey form themselves
 
 # changes:
-# v3 - fixed timestamp timezone which was shifted back 1 hour
+# v3 - fixed timestamp timezone which earlier was incorrectly shifted back 1 hour
 # v2 - updated 47 records in Sweden to reflect actual time survey responses were collected
 # v1 - removed 1 test record in Costa-Rica
 
