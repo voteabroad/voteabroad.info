@@ -2,6 +2,11 @@
 # timestamp in the CSV is UTC except when data_source = 6 it is GMT+9(Tokyo)-1 = GTM+8 (this is different from Google Sheet)
 # volunteer ending with 000 = voter filled in QR code single-use survey form themselves
 
+# changes:
+# v3 - fixed timestamp timezone which was shifted back 1 hour
+# v2 - updated 47 records in Sweden to reflect actual time survey responses were collected
+# v1 - removed 1 test record in Costa-Rica
+
 cols = ['voting_station', 'country', 'city', 'data_source', 'volunteer', 'timestamp',  
         'gender', 'age', 'abroad', 'eta', 'trust', 'candidate', 'candidate_is_na', 
         'candidate_is_davankov', 'candidate_is_putin', 'candidate_is_slutsky', 'candidate_is_kharitonov', 
