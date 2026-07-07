@@ -69,6 +69,7 @@
     <!-- Template styles -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/results-dashboard.css">
 </head>
 
 <body>
@@ -152,12 +153,59 @@
                         <div class="mission_and_vission_title" style="margin-bottom:40px">
                             <h3 data-frontendeditor="tv-home_title1">Результаты экзит-поллов / Exit polls results</h3>
                         </div>
-                       <span style="font-size: smaller">
-                       <p><a href="https://docs.google.com/spreadsheets/d/1HwIbQLXxcB0GAc8DA6uIkYNj0BCXhROKUp7kto9k8Z0/edit#gid=373097824"><b>Наши результаты в Google Sheets</b></a> &nbsp;  |  &nbsp;  <a href="https://docs.google.com/spreadsheets/d/1hTn8J7K8WJbWYvmoo10GQWm__2cTVg4dCsM_ZocbgiQ/edit#gid=0"><b>Исходные данные (Raw data) в Sheets & CSV</b></a></p>
-                       <p><span style="color:white">Данные ЦИК (предоставлены каналом <a href="https://t.me/nevybory">Невыборы</a> Ивана Шукшина):</span> <a href="https://docs.google.com/spreadsheets/d/1jwP7_GrNAFyr1okSUYgooSp7NmKcKoDEKx_0rKdqIwE/edit#gid=0"><b>Голосование за рубежом</b></a>, &nbsp; <a href="https://t.me/nevybory/131"><b>98% всех УИК</b></a></p>
-                       </span>
-                       <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRzVd6SBQIUuA3NXqxj532BecOwUPk2K6Wc58FCdHjFVN6LIwnMtq7qCjaX-KulbFU-UMu1-Jnh1TmG/pubhtml?gid=373097824&amp;single=true&amp;widget=true&amp;headers=false"  
-                           width="100%" height="3300""></iframe>
+                       <div class="results-dashboard is-loading" data-results-dashboard>
+                           <div class="results-source-links">
+                               <p><a href="https://docs.google.com/spreadsheets/d/1HwIbQLXxcB0GAc8DA6uIkYNj0BCXhROKUp7kto9k8Z0/edit#gid=373097824">Наши результаты в Google Sheets</a> &nbsp; | &nbsp; <a href="https://docs.google.com/spreadsheets/d/1hTn8J7K8WJbWYvmoo10GQWm__2cTVg4dCsM_ZocbgiQ/edit#gid=0">Исходные данные (Raw data) в Sheets &amp; CSV</a></p>
+                               <p>Данные ЦИК (предоставлены каналом <a href="https://t.me/nevybory">Невыборы</a> Ивана Шукшина): <a href="https://docs.google.com/spreadsheets/d/1jwP7_GrNAFyr1okSUYgooSp7NmKcKoDEKx_0rKdqIwE/edit#gid=0">Голосование за рубежом</a>, &nbsp; <a href="https://t.me/nevybory/131">98% всех УИК</a></p>
+                           </div>
+
+                           <div class="results-dashboard__body">
+                               <div class="results-summary-grid" data-results-summary>
+                                   <div class="results-summary-card"><span>Загрузка / Loading</span><strong>...</strong></div>
+                               </div>
+
+                               <h4>Итоги по кандидатам / Candidate totals</h4>
+                               <div data-results-bars></div>
+
+                               <div class="results-levels" aria-label="Results level">
+                                   <button class="is-active" type="button" data-results-level="countries">Страны / Countries</button>
+                                   <button type="button" data-results-level="cities">Города / Cities</button>
+                                   <button type="button" data-results-level="stations">Участки / Stations</button>
+                               </div>
+
+                               <div class="results-controls">
+                                   <input type="search" data-results-search placeholder="Поиск / Search">
+                                   <select data-results-country aria-label="Country filter"></select>
+                                   <select data-results-sort aria-label="Sort results">
+                                       <option value="responses">Ответы / Responses</option>
+                                       <option value="name">Название / Name</option>
+                                       <option value="davankov">Доля Даванкова / Davankov share</option>
+                                       <option value="putin">Доля Путина / Putin share</option>
+                                   </select>
+                               </div>
+
+                               <div class="results-table-wrap">
+                                   <table class="results-table" data-results-table>
+                                       <thead>
+                                           <tr>
+                                               <th>Место / Place</th>
+                                               <th>Ответы / Responses</th>
+                                               <th>Даванков / Davankov</th>
+                                               <th>Путин / Putin</th>
+                                               <th>Лидер / Leader</th>
+                                           </tr>
+                                       </thead>
+                                       <tbody></tbody>
+                                   </table>
+                               </div>
+                               <p class="results-count" data-results-count></p>
+
+                               <details class="results-raw-details">
+                                   <summary>Полная таблица Google Sheets / Full Google Sheets table</summary>
+                                   <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRzVd6SBQIUuA3NXqxj532BecOwUPk2K6Wc58FCdHjFVN6LIwnMtq7qCjaX-KulbFU-UMu1-Jnh1TmG/pubhtml?gid=373097824&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+                               </details>
+                           </div>
+                       </div>
                        <br><br>
                         <div class="mission_and_vission_title" style="margin-bottom:40px">
                             <a href="results-2021.html" class="thm-btn" style="text-align:center">
@@ -456,6 +504,7 @@
 
     <!-- template scripts -->
     <script src="assets/js/theme.js"></script>
+    <script src="assets/js/results-dashboard.js"></script>
 
     <script>
         $('.js-data-example-ajax').select2({

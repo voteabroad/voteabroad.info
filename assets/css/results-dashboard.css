@@ -1,0 +1,248 @@
+.results-dashboard {
+  color: #27323f;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 28px;
+  margin: 28px 0;
+  text-align: left;
+}
+
+.results-dashboard.is-loading .results-dashboard__body {
+  opacity: 0.45;
+}
+
+.results-source-links {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.results-source-links p {
+  margin: 0 0 6px;
+}
+
+.results-source-links a {
+  font-weight: 700;
+}
+
+.results-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 28px;
+}
+
+.results-summary-card {
+  border: 1px solid #e0e6ee;
+  border-radius: 8px;
+  padding: 16px;
+  background: #f8fafc;
+}
+
+.results-summary-card span {
+  display: block;
+  color: #667384;
+  font-size: 13px;
+  line-height: 1.3;
+  margin-bottom: 8px;
+}
+
+.results-summary-card strong {
+  display: block;
+  color: #18212d;
+  font-size: 30px;
+  line-height: 1;
+}
+
+.results-dashboard h4 {
+  color: #18212d;
+  font-size: 22px;
+  line-height: 1.25;
+  margin: 0 0 16px;
+}
+
+.candidate-result {
+  margin-bottom: 14px;
+}
+
+.candidate-result__top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  color: #18212d;
+  font-size: 14px;
+  line-height: 1.3;
+  margin-bottom: 6px;
+}
+
+.candidate-result__top span {
+  color: #445266;
+  white-space: nowrap;
+}
+
+.candidate-result__track {
+  height: 12px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #e8edf3;
+}
+
+.candidate-result__track span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: #009aa2;
+}
+
+.results-controls {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+  margin: 28px 0 16px;
+}
+
+.results-levels {
+  display: inline-flex;
+  border: 1px solid #cfd8e3;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.results-levels button,
+.results-controls input,
+.results-controls select {
+  min-height: 44px;
+  border: 1px solid #cfd8e3;
+  color: #27323f;
+  background: #ffffff;
+  font-size: 14px;
+}
+
+.results-levels button {
+  border-width: 0 1px 0 0;
+  padding: 0 16px;
+  cursor: pointer;
+}
+
+.results-levels button:last-child {
+  border-right: 0;
+}
+
+.results-levels button.is-active {
+  color: #ffffff;
+  background: #332e98;
+}
+
+.results-controls input,
+.results-controls select {
+  width: 100%;
+  border-radius: 8px;
+  padding: 0 12px;
+}
+
+.results-table-wrap {
+  overflow-x: auto;
+  border: 1px solid #e0e6ee;
+  border-radius: 8px;
+}
+
+.results-table {
+  width: 100%;
+  min-width: 760px;
+  border-collapse: collapse;
+  background: #ffffff;
+}
+
+.results-table th,
+.results-table td {
+  padding: 12px 14px;
+  border-bottom: 1px solid #e8edf3;
+  vertical-align: top;
+  font-size: 14px;
+  line-height: 1.35;
+}
+
+.results-table th {
+  color: #445266;
+  background: #f8fafc;
+  font-weight: 700;
+}
+
+.results-table td {
+  color: #27323f;
+}
+
+.results-table small {
+  color: #667384;
+}
+
+.results-table tr:last-child td {
+  border-bottom: 0;
+}
+
+.results-count {
+  color: #667384;
+  font-size: 13px;
+  line-height: 1.4;
+  margin-top: 10px;
+}
+
+.results-raw-details {
+  margin-top: 24px;
+}
+
+.results-raw-details summary {
+  cursor: pointer;
+  color: #18212d;
+  font-weight: 700;
+}
+
+.results-raw-details iframe {
+  width: 100%;
+  height: 900px;
+  margin-top: 16px;
+  border: 1px solid #e0e6ee;
+}
+
+.results-error {
+  color: #9f1d20;
+  margin: 0;
+}
+
+@media only screen and (max-width: 991px) {
+  .results-summary-grid,
+  .results-controls {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .results-dashboard {
+    padding: 18px;
+  }
+
+  .results-summary-grid,
+  .results-controls {
+    grid-template-columns: 1fr;
+  }
+
+  .candidate-result__top {
+    display: block;
+  }
+
+  .candidate-result__top span {
+    display: block;
+    margin-top: 4px;
+  }
+
+  .results-levels {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .results-levels button {
+    border-width: 0 0 1px;
+  }
+}

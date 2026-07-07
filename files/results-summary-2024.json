@@ -1,0 +1,2855 @@
+{
+  "generated_at": "2024-03-18T11:43:17+00:00",
+  "election": {
+    "name_ru": "Выборы Президента Российской Федерации",
+    "name_en": "Russian presidential election",
+    "date": "2024-03-17"
+  },
+  "source": {
+    "csv": "files/voter_responses_exit_polls_voteabroad_info_russia_presidential_election_20240317_v3.csv",
+    "notes": "files/voter_responses_exit_polls_voteabroad_info_russia_presidential_election_20240317_v3.txt"
+  },
+  "candidates": [
+    {
+      "key": "no_answer",
+      "code": 0,
+      "name_ru": "Не хочу отвечать",
+      "name_en": "No answer"
+    },
+    {
+      "key": "davankov",
+      "code": 1,
+      "name_ru": "В. А. Даванков",
+      "name_en": "V. A. Davankov"
+    },
+    {
+      "key": "putin",
+      "code": 2,
+      "name_ru": "В. В. Путин",
+      "name_en": "V. V. Putin"
+    },
+    {
+      "key": "slutsky",
+      "code": 3,
+      "name_ru": "Л. В. Слуцкий",
+      "name_en": "L. V. Slutsky"
+    },
+    {
+      "key": "kharitonov",
+      "code": 4,
+      "name_ru": "Н. М. Харитонов",
+      "name_en": "N. M. Kharitonov"
+    },
+    {
+      "key": "invalid",
+      "code": 5,
+      "name_ru": "Недействительный бюллетень",
+      "name_en": "Invalid ballot"
+    },
+    {
+      "key": "removed",
+      "code": 6,
+      "name_ru": "Бюллетень унесен/выброшен/порван",
+      "name_en": "Ballot removed"
+    }
+  ],
+  "totals": {
+    "responses": 69260,
+    "countries": 44,
+    "cities": 62,
+    "stations": 65,
+    "candidates": {
+      "no_answer": 12953,
+      "davankov": 32202,
+      "putin": 10410,
+      "slutsky": 573,
+      "kharitonov": 994,
+      "invalid": 11813,
+      "removed": 315
+    }
+  },
+  "countries": [
+    {
+      "code": 196,
+      "name": "Cyprus",
+      "responses": 5663,
+      "candidates": {
+        "no_answer": 833,
+        "davankov": 2600,
+        "putin": 1310,
+        "slutsky": 63,
+        "kharitonov": 89,
+        "invalid": 752,
+        "removed": 16
+      }
+    },
+    {
+      "code": 276,
+      "name": "Germany",
+      "responses": 4963,
+      "candidates": {
+        "no_answer": 1525,
+        "davankov": 1564,
+        "putin": 1030,
+        "slutsky": 21,
+        "kharitonov": 49,
+        "invalid": 756,
+        "removed": 18
+      }
+    },
+    {
+      "code": 688,
+      "name": "Serbia",
+      "responses": 3906,
+      "candidates": {
+        "no_answer": 503,
+        "davankov": 2625,
+        "putin": 112,
+        "slutsky": 27,
+        "kharitonov": 41,
+        "invalid": 566,
+        "removed": 32
+      }
+    },
+    {
+      "code": 51,
+      "name": "Armenia",
+      "responses": 3903,
+      "candidates": {
+        "no_answer": 429,
+        "davankov": 2365,
+        "putin": 411,
+        "slutsky": 29,
+        "kharitonov": 48,
+        "invalid": 612,
+        "removed": 9
+      }
+    },
+    {
+      "code": 376,
+      "name": "Israel",
+      "responses": 3035,
+      "candidates": {
+        "no_answer": 529,
+        "davankov": 1373,
+        "putin": 515,
+        "slutsky": 21,
+        "kharitonov": 36,
+        "invalid": 537,
+        "removed": 24
+      }
+    },
+    {
+      "code": 40,
+      "name": "Austria",
+      "responses": 3015,
+      "candidates": {
+        "no_answer": 623,
+        "davankov": 1443,
+        "putin": 230,
+        "slutsky": 22,
+        "kharitonov": 56,
+        "invalid": 635,
+        "removed": 6
+      }
+    },
+    {
+      "code": 250,
+      "name": "France",
+      "responses": 2818,
+      "candidates": {
+        "no_answer": 306,
+        "davankov": 1345,
+        "putin": 346,
+        "slutsky": 36,
+        "kharitonov": 65,
+        "invalid": 701,
+        "removed": 19
+      }
+    },
+    {
+      "code": 246,
+      "name": "Finland",
+      "responses": 2686,
+      "candidates": {
+        "no_answer": 626,
+        "davankov": 1187,
+        "putin": 266,
+        "slutsky": 18,
+        "kharitonov": 33,
+        "invalid": 540,
+        "removed": 16
+      }
+    },
+    {
+      "code": 398,
+      "name": "Kazakhstan",
+      "responses": 2675,
+      "candidates": {
+        "no_answer": 242,
+        "davankov": 1750,
+        "putin": 223,
+        "slutsky": 19,
+        "kharitonov": 38,
+        "invalid": 388,
+        "removed": 15
+      }
+    },
+    {
+      "code": 860,
+      "name": "Uzbekistan",
+      "responses": 2447,
+      "candidates": {
+        "no_answer": 499,
+        "davankov": 826,
+        "putin": 884,
+        "slutsky": 20,
+        "kharitonov": 27,
+        "invalid": 187,
+        "removed": 4
+      }
+    },
+    {
+      "code": 380,
+      "name": "Italy",
+      "responses": 1807,
+      "candidates": {
+        "no_answer": 393,
+        "davankov": 564,
+        "putin": 583,
+        "slutsky": 14,
+        "kharitonov": 18,
+        "invalid": 231,
+        "removed": 4
+      }
+    },
+    {
+      "code": 124,
+      "name": "Canada",
+      "responses": 1773,
+      "candidates": {
+        "no_answer": 642,
+        "davankov": 491,
+        "putin": 331,
+        "slutsky": 13,
+        "kharitonov": 28,
+        "invalid": 256,
+        "removed": 12
+      }
+    },
+    {
+      "code": 756,
+      "name": "Switzerland",
+      "responses": 1739,
+      "candidates": {
+        "no_answer": 422,
+        "davankov": 597,
+        "putin": 326,
+        "slutsky": 14,
+        "kharitonov": 24,
+        "invalid": 343,
+        "removed": 13
+      }
+    },
+    {
+      "code": 826,
+      "name": "Great Britain",
+      "responses": 1726,
+      "candidates": {
+        "no_answer": 183,
+        "davankov": 977,
+        "putin": 98,
+        "slutsky": 7,
+        "kharitonov": 33,
+        "invalid": 417,
+        "removed": 11
+      }
+    },
+    {
+      "code": 784,
+      "name": "UAE",
+      "responses": 1556,
+      "candidates": {
+        "no_answer": 231,
+        "davankov": 657,
+        "putin": 486,
+        "slutsky": 12,
+        "kharitonov": 20,
+        "invalid": 144,
+        "removed": 6
+      }
+    },
+    {
+      "code": 840,
+      "name": "USA",
+      "responses": 1552,
+      "candidates": {
+        "no_answer": 335,
+        "davankov": 587,
+        "putin": 238,
+        "slutsky": 16,
+        "kharitonov": 24,
+        "invalid": 344,
+        "removed": 8
+      }
+    },
+    {
+      "code": 616,
+      "name": "Poland",
+      "responses": 1548,
+      "candidates": {
+        "no_answer": 141,
+        "davankov": 870,
+        "putin": 66,
+        "slutsky": 17,
+        "kharitonov": 27,
+        "invalid": 418,
+        "removed": 9
+      }
+    },
+    {
+      "code": 233,
+      "name": "Estonia",
+      "responses": 1508,
+      "candidates": {
+        "no_answer": 959,
+        "davankov": 231,
+        "putin": 119,
+        "slutsky": 4,
+        "kharitonov": 12,
+        "invalid": 172,
+        "removed": 11
+      }
+    },
+    {
+      "code": 348,
+      "name": "Hungary",
+      "responses": 1437,
+      "candidates": {
+        "no_answer": 441,
+        "davankov": 578,
+        "putin": 201,
+        "slutsky": 17,
+        "kharitonov": 21,
+        "invalid": 178,
+        "removed": 1
+      }
+    },
+    {
+      "code": 499,
+      "name": "Montenegro",
+      "responses": 1430,
+      "candidates": {
+        "no_answer": 130,
+        "davankov": 947,
+        "putin": 39,
+        "slutsky": 17,
+        "kharitonov": 26,
+        "invalid": 267,
+        "removed": 4
+      }
+    },
+    {
+      "code": 724,
+      "name": "Spain",
+      "responses": 1407,
+      "candidates": {
+        "no_answer": 35,
+        "davankov": 866,
+        "putin": 100,
+        "slutsky": 6,
+        "kharitonov": 20,
+        "invalid": 377,
+        "removed": 3
+      }
+    },
+    {
+      "code": 32,
+      "name": "Argentina",
+      "responses": 1356,
+      "candidates": {
+        "no_answer": 239,
+        "davankov": 723,
+        "putin": 77,
+        "slutsky": 16,
+        "kharitonov": 29,
+        "invalid": 262,
+        "removed": 10
+      }
+    },
+    {
+      "code": 203,
+      "name": "Czechia",
+      "responses": 1310,
+      "candidates": {
+        "no_answer": 21,
+        "davankov": 871,
+        "putin": 54,
+        "slutsky": 18,
+        "kharitonov": 17,
+        "invalid": 325,
+        "removed": 4
+      }
+    },
+    {
+      "code": 792,
+      "name": "Turkey",
+      "responses": 1272,
+      "candidates": {
+        "no_answer": 70,
+        "davankov": 840,
+        "putin": 102,
+        "slutsky": 18,
+        "kharitonov": 16,
+        "invalid": 224,
+        "removed": 2
+      }
+    },
+    {
+      "code": 528,
+      "name": "Netherlands",
+      "responses": 1167,
+      "candidates": {
+        "no_answer": 109,
+        "davankov": 739,
+        "putin": 26,
+        "slutsky": 7,
+        "kharitonov": 23,
+        "invalid": 260,
+        "removed": 3
+      }
+    },
+    {
+      "code": 300,
+      "name": "Greece",
+      "responses": 1076,
+      "candidates": {
+        "no_answer": 300,
+        "davankov": 71,
+        "putin": 640,
+        "slutsky": 3,
+        "kharitonov": 3,
+        "invalid": 57,
+        "removed": 2
+      }
+    },
+    {
+      "code": 752,
+      "name": "Sweden",
+      "responses": 1009,
+      "candidates": {
+        "no_answer": 213,
+        "davankov": 409,
+        "putin": 140,
+        "slutsky": 7,
+        "kharitonov": 11,
+        "invalid": 228,
+        "removed": 1
+      }
+    },
+    {
+      "code": 442,
+      "name": "Luxembourg",
+      "responses": 877,
+      "candidates": {
+        "no_answer": 308,
+        "davankov": 306,
+        "putin": 110,
+        "slutsky": 5,
+        "kharitonov": 14,
+        "invalid": 130,
+        "removed": 4
+      }
+    },
+    {
+      "code": 498,
+      "name": "Moldova",
+      "responses": 870,
+      "candidates": {
+        "no_answer": 337,
+        "davankov": 173,
+        "putin": 308,
+        "slutsky": 6,
+        "kharitonov": 6,
+        "invalid": 32,
+        "removed": 8
+      }
+    },
+    {
+      "code": 578,
+      "name": "Norway",
+      "responses": 804,
+      "candidates": {
+        "no_answer": 269,
+        "davankov": 265,
+        "putin": 106,
+        "slutsky": 7,
+        "kharitonov": 12,
+        "invalid": 139,
+        "removed": 6
+      }
+    },
+    {
+      "code": 620,
+      "name": "Portugal",
+      "responses": 753,
+      "candidates": {
+        "no_answer": 48,
+        "davankov": 453,
+        "putin": 67,
+        "slutsky": 10,
+        "kharitonov": 10,
+        "invalid": 164,
+        "removed": 1
+      }
+    },
+    {
+      "code": 392,
+      "name": "Japan",
+      "responses": 642,
+      "candidates": {
+        "no_answer": 120,
+        "davankov": 297,
+        "putin": 106,
+        "slutsky": 9,
+        "kharitonov": 15,
+        "invalid": 91,
+        "removed": 4
+      }
+    },
+    {
+      "code": 56,
+      "name": "Belgium",
+      "responses": 639,
+      "candidates": {
+        "no_answer": 28,
+        "davankov": 270,
+        "putin": 149,
+        "slutsky": 3,
+        "kharitonov": 14,
+        "invalid": 166,
+        "removed": 9
+      }
+    },
+    {
+      "code": 372,
+      "name": "Ireland",
+      "responses": 629,
+      "candidates": {
+        "no_answer": 207,
+        "davankov": 243,
+        "putin": 44,
+        "slutsky": 8,
+        "kharitonov": 7,
+        "invalid": 113,
+        "removed": 7
+      }
+    },
+    {
+      "code": 208,
+      "name": "Denmark",
+      "responses": 620,
+      "candidates": {
+        "no_answer": 88,
+        "davankov": 319,
+        "putin": 49,
+        "slutsky": 8,
+        "kharitonov": 10,
+        "invalid": 143,
+        "removed": 3
+      }
+    },
+    {
+      "code": 440,
+      "name": "Lithuania",
+      "responses": 619,
+      "candidates": {
+        "no_answer": 165,
+        "davankov": 244,
+        "putin": 22,
+        "slutsky": 2,
+        "kharitonov": 13,
+        "invalid": 171,
+        "removed": 2
+      }
+    },
+    {
+      "code": 703,
+      "name": "Slovakia",
+      "responses": 617,
+      "candidates": {
+        "no_answer": 105,
+        "davankov": 323,
+        "putin": 42,
+        "slutsky": 11,
+        "kharitonov": 9,
+        "invalid": 123,
+        "removed": 4
+      }
+    },
+    {
+      "code": 764,
+      "name": "Thailand",
+      "responses": 579,
+      "candidates": {
+        "no_answer": 44,
+        "davankov": 382,
+        "putin": 58,
+        "slutsky": 7,
+        "kharitonov": 17,
+        "invalid": 70,
+        "removed": 1
+      }
+    },
+    {
+      "code": 36,
+      "name": "Australia",
+      "responses": 536,
+      "candidates": {
+        "no_answer": 6,
+        "davankov": 288,
+        "putin": 94,
+        "slutsky": 5,
+        "kharitonov": 18,
+        "invalid": 125,
+        "removed": 0
+      }
+    },
+    {
+      "code": 417,
+      "name": "Kyrgyzstan",
+      "responses": 517,
+      "candidates": {
+        "no_answer": 49,
+        "davankov": 226,
+        "putin": 184,
+        "slutsky": 1,
+        "kharitonov": 4,
+        "invalid": 50,
+        "removed": 3
+      }
+    },
+    {
+      "code": 191,
+      "name": "Croatia",
+      "responses": 313,
+      "candidates": {
+        "no_answer": 78,
+        "davankov": 131,
+        "putin": 43,
+        "slutsky": 4,
+        "kharitonov": 5,
+        "invalid": 52,
+        "removed": 0
+      }
+    },
+    {
+      "code": 704,
+      "name": "Vietnam",
+      "responses": 238,
+      "candidates": {
+        "no_answer": 44,
+        "davankov": 127,
+        "putin": 35,
+        "slutsky": 3,
+        "kharitonov": 3,
+        "invalid": 26,
+        "removed": 0
+      }
+    },
+    {
+      "code": 554,
+      "name": "New Zealand",
+      "responses": 132,
+      "candidates": {
+        "no_answer": 50,
+        "davankov": 35,
+        "putin": 15,
+        "slutsky": 2,
+        "kharitonov": 0,
+        "invalid": 30,
+        "removed": 0
+      }
+    },
+    {
+      "code": 188,
+      "name": "Costa Rica",
+      "responses": 91,
+      "candidates": {
+        "no_answer": 28,
+        "davankov": 24,
+        "putin": 25,
+        "slutsky": 0,
+        "kharitonov": 3,
+        "invalid": 11,
+        "removed": 0
+      }
+    }
+  ],
+  "cities": [
+    {
+      "code": 194001,
+      "name": "Nicosia",
+      "country_code": 196,
+      "country_name": "Cyprus",
+      "responses": 5663,
+      "candidates": {
+        "no_answer": 833,
+        "davankov": 2600,
+        "putin": 1310,
+        "slutsky": 63,
+        "kharitonov": 89,
+        "invalid": 752,
+        "removed": 16
+      }
+    },
+    {
+      "code": 688001,
+      "name": "Belgrade",
+      "country_code": 688,
+      "country_name": "Serbia",
+      "responses": 3906,
+      "candidates": {
+        "no_answer": 503,
+        "davankov": 2625,
+        "putin": 112,
+        "slutsky": 27,
+        "kharitonov": 41,
+        "invalid": 566,
+        "removed": 32
+      }
+    },
+    {
+      "code": 51001,
+      "name": "Yerevan",
+      "country_code": 51,
+      "country_name": "Armenia",
+      "responses": 3213,
+      "candidates": {
+        "no_answer": 299,
+        "davankov": 2037,
+        "putin": 266,
+        "slutsky": 23,
+        "kharitonov": 34,
+        "invalid": 546,
+        "removed": 8
+      }
+    },
+    {
+      "code": 246001,
+      "name": "Helsinki",
+      "country_code": 246,
+      "country_name": "Finland",
+      "responses": 2686,
+      "candidates": {
+        "no_answer": 626,
+        "davankov": 1187,
+        "putin": 266,
+        "slutsky": 18,
+        "kharitonov": 33,
+        "invalid": 540,
+        "removed": 16
+      }
+    },
+    {
+      "code": 398001,
+      "name": "Almaty",
+      "country_code": 398,
+      "country_name": "Kazakhstan",
+      "responses": 2675,
+      "candidates": {
+        "no_answer": 242,
+        "davankov": 1750,
+        "putin": 223,
+        "slutsky": 19,
+        "kharitonov": 38,
+        "invalid": 388,
+        "removed": 15
+      }
+    },
+    {
+      "code": 276002,
+      "name": "Bonn",
+      "country_code": 276,
+      "country_name": "Germany",
+      "responses": 2572,
+      "candidates": {
+        "no_answer": 618,
+        "davankov": 727,
+        "putin": 798,
+        "slutsky": 11,
+        "kharitonov": 29,
+        "invalid": 387,
+        "removed": 2
+      }
+    },
+    {
+      "code": 276001,
+      "name": "Berlin",
+      "country_code": 276,
+      "country_name": "Germany",
+      "responses": 2391,
+      "candidates": {
+        "no_answer": 907,
+        "davankov": 837,
+        "putin": 232,
+        "slutsky": 10,
+        "kharitonov": 20,
+        "invalid": 369,
+        "removed": 16
+      }
+    },
+    {
+      "code": 860001,
+      "name": "Tashkent",
+      "country_code": 860,
+      "country_name": "Uzbekistan",
+      "responses": 2196,
+      "candidates": {
+        "no_answer": 411,
+        "davankov": 781,
+        "putin": 796,
+        "slutsky": 17,
+        "kharitonov": 26,
+        "invalid": 161,
+        "removed": 4
+      }
+    },
+    {
+      "code": 250001,
+      "name": "Paris",
+      "country_code": 250,
+      "country_name": "France",
+      "responses": 1841,
+      "candidates": {
+        "no_answer": 91,
+        "davankov": 940,
+        "putin": 207,
+        "slutsky": 24,
+        "kharitonov": 52,
+        "invalid": 510,
+        "removed": 17
+      }
+    },
+    {
+      "code": 40002,
+      "name": "Vienna",
+      "country_code": 40,
+      "country_name": "Austria",
+      "responses": 1788,
+      "candidates": {
+        "no_answer": 440,
+        "davankov": 797,
+        "putin": 126,
+        "slutsky": 15,
+        "kharitonov": 31,
+        "invalid": 375,
+        "removed": 4
+      }
+    },
+    {
+      "code": 826001,
+      "name": "London",
+      "country_code": 826,
+      "country_name": "Great Britain",
+      "responses": 1726,
+      "candidates": {
+        "no_answer": 183,
+        "davankov": 977,
+        "putin": 98,
+        "slutsky": 7,
+        "kharitonov": 33,
+        "invalid": 417,
+        "removed": 11
+      }
+    },
+    {
+      "code": 376002,
+      "name": "Tel Aviv",
+      "country_code": 376,
+      "country_name": "Israel",
+      "responses": 1619,
+      "candidates": {
+        "no_answer": 274,
+        "davankov": 752,
+        "putin": 263,
+        "slutsky": 9,
+        "kharitonov": 21,
+        "invalid": 285,
+        "removed": 15
+      }
+    },
+    {
+      "code": 784001,
+      "name": "Dubai",
+      "country_code": 784,
+      "country_name": "UAE",
+      "responses": 1556,
+      "candidates": {
+        "no_answer": 231,
+        "davankov": 657,
+        "putin": 486,
+        "slutsky": 12,
+        "kharitonov": 20,
+        "invalid": 144,
+        "removed": 6
+      }
+    },
+    {
+      "code": 840001,
+      "name": "New York",
+      "country_code": 840,
+      "country_name": "USA",
+      "responses": 1552,
+      "candidates": {
+        "no_answer": 335,
+        "davankov": 587,
+        "putin": 238,
+        "slutsky": 16,
+        "kharitonov": 24,
+        "invalid": 344,
+        "removed": 8
+      }
+    },
+    {
+      "code": 233001,
+      "name": "Tallinn",
+      "country_code": 233,
+      "country_name": "Estonia",
+      "responses": 1508,
+      "candidates": {
+        "no_answer": 959,
+        "davankov": 231,
+        "putin": 119,
+        "slutsky": 4,
+        "kharitonov": 12,
+        "invalid": 172,
+        "removed": 11
+      }
+    },
+    {
+      "code": 348001,
+      "name": "Budapest",
+      "country_code": 348,
+      "country_name": "Hungary",
+      "responses": 1437,
+      "candidates": {
+        "no_answer": 441,
+        "davankov": 578,
+        "putin": 201,
+        "slutsky": 17,
+        "kharitonov": 21,
+        "invalid": 178,
+        "removed": 1
+      }
+    },
+    {
+      "code": 499001,
+      "name": "Podgorica",
+      "country_code": 499,
+      "country_name": "Montenegro",
+      "responses": 1430,
+      "candidates": {
+        "no_answer": 130,
+        "davankov": 947,
+        "putin": 39,
+        "slutsky": 17,
+        "kharitonov": 26,
+        "invalid": 267,
+        "removed": 4
+      }
+    },
+    {
+      "code": 376001,
+      "name": "Haifa / Jerusalem",
+      "country_code": 376,
+      "country_name": "Israel",
+      "responses": 1416,
+      "candidates": {
+        "no_answer": 255,
+        "davankov": 621,
+        "putin": 252,
+        "slutsky": 12,
+        "kharitonov": 15,
+        "invalid": 252,
+        "removed": 9
+      }
+    },
+    {
+      "code": 32001,
+      "name": "Buenos Aires",
+      "country_code": 32,
+      "country_name": "Argentina",
+      "responses": 1356,
+      "candidates": {
+        "no_answer": 239,
+        "davankov": 723,
+        "putin": 77,
+        "slutsky": 16,
+        "kharitonov": 29,
+        "invalid": 262,
+        "removed": 10
+      }
+    },
+    {
+      "code": 203001,
+      "name": "Prague",
+      "country_code": 203,
+      "country_name": "Czechia",
+      "responses": 1310,
+      "candidates": {
+        "no_answer": 21,
+        "davankov": 871,
+        "putin": 54,
+        "slutsky": 18,
+        "kharitonov": 17,
+        "invalid": 325,
+        "removed": 4
+      }
+    },
+    {
+      "code": 40001,
+      "name": "Salzburg",
+      "country_code": 40,
+      "country_name": "Austria",
+      "responses": 1227,
+      "candidates": {
+        "no_answer": 183,
+        "davankov": 646,
+        "putin": 104,
+        "slutsky": 7,
+        "kharitonov": 25,
+        "invalid": 260,
+        "removed": 2
+      }
+    },
+    {
+      "code": 528001,
+      "name": "The Hague",
+      "country_code": 528,
+      "country_name": "Netherlands",
+      "responses": 1167,
+      "candidates": {
+        "no_answer": 109,
+        "davankov": 739,
+        "putin": 26,
+        "slutsky": 7,
+        "kharitonov": 23,
+        "invalid": 260,
+        "removed": 3
+      }
+    },
+    {
+      "code": 756002,
+      "name": "Geneva",
+      "country_code": 756,
+      "country_name": "Switzerland",
+      "responses": 1157,
+      "candidates": {
+        "no_answer": 342,
+        "davankov": 337,
+        "putin": 230,
+        "slutsky": 10,
+        "kharitonov": 15,
+        "invalid": 218,
+        "removed": 5
+      }
+    },
+    {
+      "code": 300001,
+      "name": "Athens",
+      "country_code": 300,
+      "country_name": "Greece",
+      "responses": 1076,
+      "candidates": {
+        "no_answer": 300,
+        "davankov": 71,
+        "putin": 640,
+        "slutsky": 3,
+        "kharitonov": 3,
+        "invalid": 57,
+        "removed": 2
+      }
+    },
+    {
+      "code": 752001,
+      "name": "Stockholm",
+      "country_code": 752,
+      "country_name": "Sweden",
+      "responses": 1009,
+      "candidates": {
+        "no_answer": 213,
+        "davankov": 409,
+        "putin": 140,
+        "slutsky": 7,
+        "kharitonov": 11,
+        "invalid": 228,
+        "removed": 1
+      }
+    },
+    {
+      "code": 250002,
+      "name": "Strasbourg",
+      "country_code": 250,
+      "country_name": "France",
+      "responses": 977,
+      "candidates": {
+        "no_answer": 215,
+        "davankov": 405,
+        "putin": 139,
+        "slutsky": 12,
+        "kharitonov": 13,
+        "invalid": 191,
+        "removed": 2
+      }
+    },
+    {
+      "code": 724001,
+      "name": "Barcelona",
+      "country_code": 724,
+      "country_name": "Spain",
+      "responses": 962,
+      "candidates": {
+        "no_answer": 7,
+        "davankov": 629,
+        "putin": 50,
+        "slutsky": 2,
+        "kharitonov": 15,
+        "invalid": 257,
+        "removed": 2
+      }
+    },
+    {
+      "code": 792002,
+      "name": "Istanbul",
+      "country_code": 792,
+      "country_name": "Turkey",
+      "responses": 897,
+      "candidates": {
+        "no_answer": 14,
+        "davankov": 617,
+        "putin": 49,
+        "slutsky": 17,
+        "kharitonov": 15,
+        "invalid": 183,
+        "removed": 2
+      }
+    },
+    {
+      "code": 442001,
+      "name": "Luxembourg",
+      "country_code": 442,
+      "country_name": "Luxembourg",
+      "responses": 877,
+      "candidates": {
+        "no_answer": 308,
+        "davankov": 306,
+        "putin": 110,
+        "slutsky": 5,
+        "kharitonov": 14,
+        "invalid": 130,
+        "removed": 4
+      }
+    },
+    {
+      "code": 498001,
+      "name": "Chisinau",
+      "country_code": 498,
+      "country_name": "Moldova",
+      "responses": 870,
+      "candidates": {
+        "no_answer": 337,
+        "davankov": 173,
+        "putin": 308,
+        "slutsky": 6,
+        "kharitonov": 6,
+        "invalid": 32,
+        "removed": 8
+      }
+    },
+    {
+      "code": 380001,
+      "name": "Rome",
+      "country_code": 380,
+      "country_name": "Italy",
+      "responses": 824,
+      "candidates": {
+        "no_answer": 158,
+        "davankov": 248,
+        "putin": 310,
+        "slutsky": 8,
+        "kharitonov": 9,
+        "invalid": 89,
+        "removed": 2
+      }
+    },
+    {
+      "code": 578001,
+      "name": "Oslo",
+      "country_code": 578,
+      "country_name": "Norway",
+      "responses": 804,
+      "candidates": {
+        "no_answer": 269,
+        "davankov": 265,
+        "putin": 106,
+        "slutsky": 7,
+        "kharitonov": 12,
+        "invalid": 139,
+        "removed": 6
+      }
+    },
+    {
+      "code": 380002,
+      "name": "Milan",
+      "country_code": 380,
+      "country_name": "Italy",
+      "responses": 790,
+      "candidates": {
+        "no_answer": 193,
+        "davankov": 279,
+        "putin": 181,
+        "slutsky": 5,
+        "kharitonov": 8,
+        "invalid": 122,
+        "removed": 2
+      }
+    },
+    {
+      "code": 620001,
+      "name": "Lisbon",
+      "country_code": 620,
+      "country_name": "Portugal",
+      "responses": 753,
+      "candidates": {
+        "no_answer": 48,
+        "davankov": 453,
+        "putin": 67,
+        "slutsky": 10,
+        "kharitonov": 10,
+        "invalid": 164,
+        "removed": 1
+      }
+    },
+    {
+      "code": 124001,
+      "name": "Toronto",
+      "country_code": 124,
+      "country_name": "Canada",
+      "responses": 748,
+      "candidates": {
+        "no_answer": 289,
+        "davankov": 219,
+        "putin": 109,
+        "slutsky": 8,
+        "kharitonov": 10,
+        "invalid": 111,
+        "removed": 2
+      }
+    },
+    {
+      "code": 124002,
+      "name": "Montreal",
+      "country_code": 124,
+      "country_name": "Canada",
+      "responses": 714,
+      "candidates": {
+        "no_answer": 221,
+        "davankov": 177,
+        "putin": 180,
+        "slutsky": 4,
+        "kharitonov": 16,
+        "invalid": 110,
+        "removed": 6
+      }
+    },
+    {
+      "code": 51002,
+      "name": "Gyumri",
+      "country_code": 51,
+      "country_name": "Armenia",
+      "responses": 690,
+      "candidates": {
+        "no_answer": 130,
+        "davankov": 328,
+        "putin": 145,
+        "slutsky": 6,
+        "kharitonov": 14,
+        "invalid": 66,
+        "removed": 1
+      }
+    },
+    {
+      "code": 392001,
+      "name": "Tokyo",
+      "country_code": 392,
+      "country_name": "Japan",
+      "responses": 642,
+      "candidates": {
+        "no_answer": 120,
+        "davankov": 297,
+        "putin": 106,
+        "slutsky": 9,
+        "kharitonov": 15,
+        "invalid": 91,
+        "removed": 4
+      }
+    },
+    {
+      "code": 56001,
+      "name": "Brussels",
+      "country_code": 56,
+      "country_name": "Belgium",
+      "responses": 639,
+      "candidates": {
+        "no_answer": 28,
+        "davankov": 270,
+        "putin": 149,
+        "slutsky": 3,
+        "kharitonov": 14,
+        "invalid": 166,
+        "removed": 9
+      }
+    },
+    {
+      "code": 372001,
+      "name": "Dublin",
+      "country_code": 372,
+      "country_name": "Ireland",
+      "responses": 629,
+      "candidates": {
+        "no_answer": 207,
+        "davankov": 243,
+        "putin": 44,
+        "slutsky": 8,
+        "kharitonov": 7,
+        "invalid": 113,
+        "removed": 7
+      }
+    },
+    {
+      "code": 208001,
+      "name": "Copenhagen",
+      "country_code": 208,
+      "country_name": "Denmark",
+      "responses": 620,
+      "candidates": {
+        "no_answer": 88,
+        "davankov": 319,
+        "putin": 49,
+        "slutsky": 8,
+        "kharitonov": 10,
+        "invalid": 143,
+        "removed": 3
+      }
+    },
+    {
+      "code": 440001,
+      "name": "Vilnius",
+      "country_code": 440,
+      "country_name": "Lithuania",
+      "responses": 619,
+      "candidates": {
+        "no_answer": 165,
+        "davankov": 244,
+        "putin": 22,
+        "slutsky": 2,
+        "kharitonov": 13,
+        "invalid": 171,
+        "removed": 2
+      }
+    },
+    {
+      "code": 703001,
+      "name": "Bratislava",
+      "country_code": 703,
+      "country_name": "Slovakia",
+      "responses": 617,
+      "candidates": {
+        "no_answer": 105,
+        "davankov": 323,
+        "putin": 42,
+        "slutsky": 11,
+        "kharitonov": 9,
+        "invalid": 123,
+        "removed": 4
+      }
+    },
+    {
+      "code": 616001,
+      "name": "Warsaw",
+      "country_code": 616,
+      "country_name": "Poland",
+      "responses": 614,
+      "candidates": {
+        "no_answer": 46,
+        "davankov": 350,
+        "putin": 18,
+        "slutsky": 5,
+        "kharitonov": 5,
+        "invalid": 187,
+        "removed": 3
+      }
+    },
+    {
+      "code": 756001,
+      "name": "Bern",
+      "country_code": 756,
+      "country_name": "Switzerland",
+      "responses": 582,
+      "candidates": {
+        "no_answer": 80,
+        "davankov": 260,
+        "putin": 96,
+        "slutsky": 4,
+        "kharitonov": 9,
+        "invalid": 125,
+        "removed": 8
+      }
+    },
+    {
+      "code": 764001,
+      "name": "Bangkok",
+      "country_code": 764,
+      "country_name": "Thailand",
+      "responses": 579,
+      "candidates": {
+        "no_answer": 44,
+        "davankov": 382,
+        "putin": 58,
+        "slutsky": 7,
+        "kharitonov": 17,
+        "invalid": 70,
+        "removed": 1
+      }
+    },
+    {
+      "code": 36001,
+      "name": "Sydney",
+      "country_code": 36,
+      "country_name": "Australia",
+      "responses": 536,
+      "candidates": {
+        "no_answer": 6,
+        "davankov": 288,
+        "putin": 94,
+        "slutsky": 5,
+        "kharitonov": 18,
+        "invalid": 125,
+        "removed": 0
+      }
+    },
+    {
+      "code": 417001,
+      "name": "Bishkek",
+      "country_code": 417,
+      "country_name": "Kyrgyzstan",
+      "responses": 517,
+      "candidates": {
+        "no_answer": 49,
+        "davankov": 226,
+        "putin": 184,
+        "slutsky": 1,
+        "kharitonov": 4,
+        "invalid": 50,
+        "removed": 3
+      }
+    },
+    {
+      "code": 616002,
+      "name": "Krakow",
+      "country_code": 616,
+      "country_name": "Poland",
+      "responses": 512,
+      "candidates": {
+        "no_answer": 56,
+        "davankov": 276,
+        "putin": 28,
+        "slutsky": 7,
+        "kharitonov": 10,
+        "invalid": 134,
+        "removed": 1
+      }
+    },
+    {
+      "code": 724002,
+      "name": "Madrid",
+      "country_code": 724,
+      "country_name": "Spain",
+      "responses": 445,
+      "candidates": {
+        "no_answer": 28,
+        "davankov": 237,
+        "putin": 50,
+        "slutsky": 4,
+        "kharitonov": 5,
+        "invalid": 120,
+        "removed": 1
+      }
+    },
+    {
+      "code": 191001,
+      "name": "Zagreb",
+      "country_code": 191,
+      "country_name": "Croatia",
+      "responses": 313,
+      "candidates": {
+        "no_answer": 78,
+        "davankov": 131,
+        "putin": 43,
+        "slutsky": 4,
+        "kharitonov": 5,
+        "invalid": 52,
+        "removed": 0
+      }
+    },
+    {
+      "code": 124003,
+      "name": "Ottawa",
+      "country_code": 124,
+      "country_name": "Canada",
+      "responses": 311,
+      "candidates": {
+        "no_answer": 132,
+        "davankov": 95,
+        "putin": 42,
+        "slutsky": 1,
+        "kharitonov": 2,
+        "invalid": 35,
+        "removed": 4
+      }
+    },
+    {
+      "code": 860002,
+      "name": "Samarkand",
+      "country_code": 860,
+      "country_name": "Uzbekistan",
+      "responses": 251,
+      "candidates": {
+        "no_answer": 88,
+        "davankov": 45,
+        "putin": 88,
+        "slutsky": 3,
+        "kharitonov": 1,
+        "invalid": 26,
+        "removed": 0
+      }
+    },
+    {
+      "code": 704001,
+      "name": "Hanoi",
+      "country_code": 704,
+      "country_name": "Vietnam",
+      "responses": 238,
+      "candidates": {
+        "no_answer": 44,
+        "davankov": 127,
+        "putin": 35,
+        "slutsky": 3,
+        "kharitonov": 3,
+        "invalid": 26,
+        "removed": 0
+      }
+    },
+    {
+      "code": 616003,
+      "name": "Gdansk",
+      "country_code": 616,
+      "country_name": "Poland",
+      "responses": 232,
+      "candidates": {
+        "no_answer": 37,
+        "davankov": 111,
+        "putin": 12,
+        "slutsky": 2,
+        "kharitonov": 8,
+        "invalid": 58,
+        "removed": 4
+      }
+    },
+    {
+      "code": 792004,
+      "name": "Trabzon",
+      "country_code": 792,
+      "country_name": "Turkey",
+      "responses": 228,
+      "candidates": {
+        "no_answer": 12,
+        "davankov": 175,
+        "putin": 10,
+        "slutsky": 0,
+        "kharitonov": 1,
+        "invalid": 30,
+        "removed": 0
+      }
+    },
+    {
+      "code": 380003,
+      "name": "Genoa",
+      "country_code": 380,
+      "country_name": "Italy",
+      "responses": 193,
+      "candidates": {
+        "no_answer": 42,
+        "davankov": 37,
+        "putin": 92,
+        "slutsky": 1,
+        "kharitonov": 1,
+        "invalid": 20,
+        "removed": 0
+      }
+    },
+    {
+      "code": 616004,
+      "name": "Poznan",
+      "country_code": 616,
+      "country_name": "Poland",
+      "responses": 190,
+      "candidates": {
+        "no_answer": 2,
+        "davankov": 133,
+        "putin": 8,
+        "slutsky": 3,
+        "kharitonov": 4,
+        "invalid": 39,
+        "removed": 1
+      }
+    },
+    {
+      "code": 554002,
+      "name": "Wellington",
+      "country_code": 554,
+      "country_name": "New Zealand",
+      "responses": 132,
+      "candidates": {
+        "no_answer": 50,
+        "davankov": 35,
+        "putin": 15,
+        "slutsky": 2,
+        "kharitonov": 0,
+        "invalid": 30,
+        "removed": 0
+      }
+    },
+    {
+      "code": 792001,
+      "name": "Ankara",
+      "country_code": 792,
+      "country_name": "Turkey",
+      "responses": 95,
+      "candidates": {
+        "no_answer": 16,
+        "davankov": 32,
+        "putin": 35,
+        "slutsky": 1,
+        "kharitonov": 0,
+        "invalid": 11,
+        "removed": 0
+      }
+    },
+    {
+      "code": 188001,
+      "name": "San Jose",
+      "country_code": 188,
+      "country_name": "Costa Rica",
+      "responses": 91,
+      "candidates": {
+        "no_answer": 28,
+        "davankov": 24,
+        "putin": 25,
+        "slutsky": 0,
+        "kharitonov": 3,
+        "invalid": 11,
+        "removed": 0
+      }
+    },
+    {
+      "code": 792003,
+      "name": "Antalya",
+      "country_code": 792,
+      "country_name": "Turkey",
+      "responses": 52,
+      "candidates": {
+        "no_answer": 28,
+        "davankov": 16,
+        "putin": 8,
+        "slutsky": 0,
+        "kharitonov": 0,
+        "invalid": 0,
+        "removed": 0
+      }
+    }
+  ],
+  "stations": [
+    {
+      "code": 8158,
+      "name": "8158",
+      "city_code": 194001,
+      "city_name": "Nicosia",
+      "country_code": 196,
+      "country_name": "Cyprus",
+      "responses": 5043,
+      "candidates": {
+        "no_answer": 743,
+        "davankov": 2377,
+        "putin": 1085,
+        "slutsky": 49,
+        "kharitonov": 77,
+        "invalid": 700,
+        "removed": 12
+      }
+    },
+    {
+      "code": 8267,
+      "name": "8267",
+      "city_code": 688001,
+      "city_name": "Belgrade",
+      "country_code": 688,
+      "country_name": "Serbia",
+      "responses": 3906,
+      "candidates": {
+        "no_answer": 503,
+        "davankov": 2625,
+        "putin": 112,
+        "slutsky": 27,
+        "kharitonov": 41,
+        "invalid": 566,
+        "removed": 32
+      }
+    },
+    {
+      "code": 8026,
+      "name": "8026",
+      "city_code": 51001,
+      "city_name": "Yerevan",
+      "country_code": 51,
+      "country_name": "Armenia",
+      "responses": 3213,
+      "candidates": {
+        "no_answer": 299,
+        "davankov": 2037,
+        "putin": 266,
+        "slutsky": 23,
+        "kharitonov": 34,
+        "invalid": 546,
+        "removed": 8
+      }
+    },
+    {
+      "code": 8304,
+      "name": "8304",
+      "city_code": 246001,
+      "city_name": "Helsinki",
+      "country_code": 246,
+      "country_name": "Finland",
+      "responses": 2686,
+      "candidates": {
+        "no_answer": 626,
+        "davankov": 1187,
+        "putin": 266,
+        "slutsky": 18,
+        "kharitonov": 33,
+        "invalid": 540,
+        "removed": 16
+      }
+    },
+    {
+      "code": 8322,
+      "name": "8322",
+      "city_code": 276002,
+      "city_name": "Bonn",
+      "country_code": 276,
+      "country_name": "Germany",
+      "responses": 2572,
+      "candidates": {
+        "no_answer": 618,
+        "davankov": 727,
+        "putin": 798,
+        "slutsky": 11,
+        "kharitonov": 29,
+        "invalid": 387,
+        "removed": 2
+      }
+    },
+    {
+      "code": 8315,
+      "name": "8315",
+      "city_code": 276001,
+      "city_name": "Berlin",
+      "country_code": 276,
+      "country_name": "Germany",
+      "responses": 2391,
+      "candidates": {
+        "no_answer": 907,
+        "davankov": 837,
+        "putin": 232,
+        "slutsky": 10,
+        "kharitonov": 20,
+        "invalid": 369,
+        "removed": 16
+      }
+    },
+    {
+      "code": 8297,
+      "name": "8297",
+      "city_code": 860001,
+      "city_name": "Tashkent",
+      "country_code": 860,
+      "country_name": "Uzbekistan",
+      "responses": 2196,
+      "candidates": {
+        "no_answer": 411,
+        "davankov": 781,
+        "putin": 796,
+        "slutsky": 17,
+        "kharitonov": 26,
+        "invalid": 161,
+        "removed": 4
+      }
+    },
+    {
+      "code": 8308,
+      "name": "8308",
+      "city_code": 250001,
+      "city_name": "Paris",
+      "country_code": 250,
+      "country_name": "France",
+      "responses": 1841,
+      "candidates": {
+        "no_answer": 91,
+        "davankov": 940,
+        "putin": 207,
+        "slutsky": 24,
+        "kharitonov": 52,
+        "invalid": 510,
+        "removed": 17
+      }
+    },
+    {
+      "code": 8015,
+      "name": "8015",
+      "city_code": 40002,
+      "city_name": "Vienna",
+      "country_code": 40,
+      "country_name": "Austria",
+      "responses": 1788,
+      "candidates": {
+        "no_answer": 440,
+        "davankov": 797,
+        "putin": 126,
+        "slutsky": 15,
+        "kharitonov": 31,
+        "invalid": 375,
+        "removed": 4
+      }
+    },
+    {
+      "code": 8061,
+      "name": "8061",
+      "city_code": 826001,
+      "city_name": "London",
+      "country_code": 826,
+      "country_name": "Great Britain",
+      "responses": 1726,
+      "candidates": {
+        "no_answer": 183,
+        "davankov": 977,
+        "putin": 98,
+        "slutsky": 7,
+        "kharitonov": 33,
+        "invalid": 417,
+        "removed": 11
+      }
+    },
+    {
+      "code": 8094,
+      "name": "8094",
+      "city_code": 376002,
+      "city_name": "Tel Aviv",
+      "country_code": 376,
+      "country_name": "Israel",
+      "responses": 1619,
+      "candidates": {
+        "no_answer": 274,
+        "davankov": 752,
+        "putin": 263,
+        "slutsky": 9,
+        "kharitonov": 21,
+        "invalid": 285,
+        "removed": 15
+      }
+    },
+    {
+      "code": 8133,
+      "name": "8133",
+      "city_code": 398001,
+      "city_name": "Almaty",
+      "country_code": 398,
+      "country_name": "Kazakhstan",
+      "responses": 1615,
+      "candidates": {
+        "no_answer": 106,
+        "davankov": 1119,
+        "putin": 129,
+        "slutsky": 6,
+        "kharitonov": 24,
+        "invalid": 223,
+        "removed": 8
+      }
+    },
+    {
+      "code": 8248,
+      "name": "8248",
+      "city_code": 784001,
+      "city_name": "Dubai",
+      "country_code": 784,
+      "country_name": "UAE",
+      "responses": 1556,
+      "candidates": {
+        "no_answer": 231,
+        "davankov": 657,
+        "putin": 486,
+        "slutsky": 12,
+        "kharitonov": 20,
+        "invalid": 144,
+        "removed": 6
+      }
+    },
+    {
+      "code": 8274,
+      "name": "8274",
+      "city_code": 840001,
+      "city_name": "New York",
+      "country_code": 840,
+      "country_name": "USA",
+      "responses": 1552,
+      "candidates": {
+        "no_answer": 335,
+        "davankov": 587,
+        "putin": 238,
+        "slutsky": 16,
+        "kharitonov": 24,
+        "invalid": 344,
+        "removed": 8
+      }
+    },
+    {
+      "code": 8345,
+      "name": "8345",
+      "city_code": 233001,
+      "city_name": "Tallinn",
+      "country_code": 233,
+      "country_name": "Estonia",
+      "responses": 1508,
+      "candidates": {
+        "no_answer": 959,
+        "davankov": 231,
+        "putin": 119,
+        "slutsky": 4,
+        "kharitonov": 12,
+        "invalid": 172,
+        "removed": 11
+      }
+    },
+    {
+      "code": 8289,
+      "name": "8289",
+      "city_code": 348001,
+      "city_name": "Budapest",
+      "country_code": 348,
+      "country_name": "Hungary",
+      "responses": 1437,
+      "candidates": {
+        "no_answer": 441,
+        "davankov": 578,
+        "putin": 201,
+        "slutsky": 17,
+        "kharitonov": 21,
+        "invalid": 178,
+        "removed": 1
+      }
+    },
+    {
+      "code": 8329,
+      "name": "8329",
+      "city_code": 499001,
+      "city_name": "Podgorica",
+      "country_code": 499,
+      "country_name": "Montenegro",
+      "responses": 1430,
+      "candidates": {
+        "no_answer": 130,
+        "davankov": 947,
+        "putin": 39,
+        "slutsky": 17,
+        "kharitonov": 26,
+        "invalid": 267,
+        "removed": 4
+      }
+    },
+    {
+      "code": 8023,
+      "name": "8023",
+      "city_code": 32001,
+      "city_name": "Buenos Aires",
+      "country_code": 32,
+      "country_name": "Argentina",
+      "responses": 1356,
+      "candidates": {
+        "no_answer": 239,
+        "davankov": 723,
+        "putin": 77,
+        "slutsky": 16,
+        "kharitonov": 29,
+        "invalid": 262,
+        "removed": 10
+      }
+    },
+    {
+      "code": 8330,
+      "name": "8330",
+      "city_code": 203001,
+      "city_name": "Prague",
+      "country_code": 203,
+      "country_name": "Czechia",
+      "responses": 1310,
+      "candidates": {
+        "no_answer": 21,
+        "davankov": 871,
+        "putin": 54,
+        "slutsky": 18,
+        "kharitonov": 17,
+        "invalid": 325,
+        "removed": 4
+      }
+    },
+    {
+      "code": 8016,
+      "name": "8016",
+      "city_code": 40001,
+      "city_name": "Salzburg",
+      "country_code": 40,
+      "country_name": "Austria",
+      "responses": 1227,
+      "candidates": {
+        "no_answer": 183,
+        "davankov": 646,
+        "putin": 104,
+        "slutsky": 7,
+        "kharitonov": 25,
+        "invalid": 260,
+        "removed": 2
+      }
+    },
+    {
+      "code": 8236,
+      "name": "8236",
+      "city_code": 528001,
+      "city_name": "The Hague",
+      "country_code": 528,
+      "country_name": "Netherlands",
+      "responses": 1167,
+      "candidates": {
+        "no_answer": 109,
+        "davankov": 739,
+        "putin": 26,
+        "slutsky": 7,
+        "kharitonov": 23,
+        "invalid": 260,
+        "removed": 3
+      }
+    },
+    {
+      "code": 8335,
+      "name": "8335",
+      "city_code": 756002,
+      "city_name": "Geneva",
+      "country_code": 756,
+      "country_name": "Switzerland",
+      "responses": 1157,
+      "candidates": {
+        "no_answer": 342,
+        "davankov": 337,
+        "putin": 230,
+        "slutsky": 10,
+        "kharitonov": 15,
+        "invalid": 218,
+        "removed": 5
+      }
+    },
+    {
+      "code": 8077,
+      "name": "8077",
+      "city_code": 300001,
+      "city_name": "Athens",
+      "country_code": 300,
+      "country_name": "Greece",
+      "responses": 1076,
+      "candidates": {
+        "no_answer": 300,
+        "davankov": 71,
+        "putin": 640,
+        "slutsky": 3,
+        "kharitonov": 3,
+        "invalid": 57,
+        "removed": 2
+      }
+    },
+    {
+      "code": 8134,
+      "name": "8134",
+      "city_code": 398001,
+      "city_name": "Almaty",
+      "country_code": 398,
+      "country_name": "Kazakhstan",
+      "responses": 1060,
+      "candidates": {
+        "no_answer": 136,
+        "davankov": 631,
+        "putin": 94,
+        "slutsky": 13,
+        "kharitonov": 14,
+        "invalid": 165,
+        "removed": 7
+      }
+    },
+    {
+      "code": 8336,
+      "name": "8336",
+      "city_code": 752001,
+      "city_name": "Stockholm",
+      "country_code": 752,
+      "country_name": "Sweden",
+      "responses": 1009,
+      "candidates": {
+        "no_answer": 213,
+        "davankov": 409,
+        "putin": 140,
+        "slutsky": 7,
+        "kharitonov": 11,
+        "invalid": 228,
+        "removed": 1
+      }
+    },
+    {
+      "code": 8314,
+      "name": "8314",
+      "city_code": 250002,
+      "city_name": "Strasbourg",
+      "country_code": 250,
+      "country_name": "France",
+      "responses": 977,
+      "candidates": {
+        "no_answer": 215,
+        "davankov": 405,
+        "putin": 139,
+        "slutsky": 12,
+        "kharitonov": 13,
+        "invalid": 191,
+        "removed": 2
+      }
+    },
+    {
+      "code": 8117,
+      "name": "8117",
+      "city_code": 724001,
+      "city_name": "Barcelona",
+      "country_code": 724,
+      "country_name": "Spain",
+      "responses": 962,
+      "candidates": {
+        "no_answer": 7,
+        "davankov": 629,
+        "putin": 50,
+        "slutsky": 2,
+        "kharitonov": 15,
+        "invalid": 257,
+        "removed": 2
+      }
+    },
+    {
+      "code": 8295,
+      "name": "8295",
+      "city_code": 792002,
+      "city_name": "Istanbul",
+      "country_code": 792,
+      "country_name": "Turkey",
+      "responses": 897,
+      "candidates": {
+        "no_answer": 14,
+        "davankov": 617,
+        "putin": 49,
+        "slutsky": 17,
+        "kharitonov": 15,
+        "invalid": 183,
+        "removed": 2
+      }
+    },
+    {
+      "code": 8192,
+      "name": "8192",
+      "city_code": 442001,
+      "city_name": "Luxembourg",
+      "country_code": 442,
+      "country_name": "Luxembourg",
+      "responses": 877,
+      "candidates": {
+        "no_answer": 308,
+        "davankov": 306,
+        "putin": 110,
+        "slutsky": 5,
+        "kharitonov": 14,
+        "invalid": 130,
+        "removed": 4
+      }
+    },
+    {
+      "code": 8204,
+      "name": "8204",
+      "city_code": 498001,
+      "city_name": "Chisinau",
+      "country_code": 498,
+      "country_name": "Moldova",
+      "responses": 870,
+      "candidates": {
+        "no_answer": 337,
+        "davankov": 173,
+        "putin": 308,
+        "slutsky": 6,
+        "kharitonov": 6,
+        "invalid": 32,
+        "removed": 8
+      }
+    },
+    {
+      "code": 8118,
+      "name": "8118",
+      "city_code": 380001,
+      "city_name": "Rome",
+      "country_code": 380,
+      "country_name": "Italy",
+      "responses": 824,
+      "candidates": {
+        "no_answer": 158,
+        "davankov": 248,
+        "putin": 310,
+        "slutsky": 8,
+        "kharitonov": 9,
+        "invalid": 89,
+        "removed": 2
+      }
+    },
+    {
+      "code": 8096,
+      "name": "8096",
+      "city_code": 376001,
+      "city_name": "Haifa / Jerusalem",
+      "country_code": 376,
+      "country_name": "Israel",
+      "responses": 815,
+      "candidates": {
+        "no_answer": 124,
+        "davankov": 381,
+        "putin": 155,
+        "slutsky": 8,
+        "kharitonov": 7,
+        "invalid": 139,
+        "removed": 1
+      }
+    },
+    {
+      "code": 8244,
+      "name": "8244",
+      "city_code": 578001,
+      "city_name": "Oslo",
+      "country_code": 578,
+      "country_name": "Norway",
+      "responses": 804,
+      "candidates": {
+        "no_answer": 269,
+        "davankov": 265,
+        "putin": 106,
+        "slutsky": 7,
+        "kharitonov": 12,
+        "invalid": 139,
+        "removed": 6
+      }
+    },
+    {
+      "code": 8119,
+      "name": "8119",
+      "city_code": 380002,
+      "city_name": "Milan",
+      "country_code": 380,
+      "country_name": "Italy",
+      "responses": 790,
+      "candidates": {
+        "no_answer": 193,
+        "davankov": 279,
+        "putin": 181,
+        "slutsky": 5,
+        "kharitonov": 8,
+        "invalid": 122,
+        "removed": 2
+      }
+    },
+    {
+      "code": 8259,
+      "name": "8259",
+      "city_code": 620001,
+      "city_name": "Lisbon",
+      "country_code": 620,
+      "country_name": "Portugal",
+      "responses": 753,
+      "candidates": {
+        "no_answer": 48,
+        "davankov": 453,
+        "putin": 67,
+        "slutsky": 10,
+        "kharitonov": 10,
+        "invalid": 164,
+        "removed": 1
+      }
+    },
+    {
+      "code": 8151,
+      "name": "8151",
+      "city_code": 124001,
+      "city_name": "Toronto",
+      "country_code": 124,
+      "country_name": "Canada",
+      "responses": 748,
+      "candidates": {
+        "no_answer": 289,
+        "davankov": 219,
+        "putin": 109,
+        "slutsky": 8,
+        "kharitonov": 10,
+        "invalid": 111,
+        "removed": 2
+      }
+    },
+    {
+      "code": 8150,
+      "name": "8150",
+      "city_code": 124002,
+      "city_name": "Montreal",
+      "country_code": 124,
+      "country_name": "Canada",
+      "responses": 714,
+      "candidates": {
+        "no_answer": 221,
+        "davankov": 177,
+        "putin": 180,
+        "slutsky": 4,
+        "kharitonov": 16,
+        "invalid": 110,
+        "removed": 6
+      }
+    },
+    {
+      "code": 8031,
+      "name": "8031",
+      "city_code": 51002,
+      "city_name": "Gyumri",
+      "country_code": 51,
+      "country_name": "Armenia",
+      "responses": 690,
+      "candidates": {
+        "no_answer": 130,
+        "davankov": 328,
+        "putin": 145,
+        "slutsky": 6,
+        "kharitonov": 14,
+        "invalid": 66,
+        "removed": 1
+      }
+    },
+    {
+      "code": 8367,
+      "name": "8367",
+      "city_code": 392001,
+      "city_name": "Tokyo",
+      "country_code": 392,
+      "country_name": "Japan",
+      "responses": 642,
+      "candidates": {
+        "no_answer": 120,
+        "davankov": 297,
+        "putin": 106,
+        "slutsky": 9,
+        "kharitonov": 15,
+        "invalid": 91,
+        "removed": 4
+      }
+    },
+    {
+      "code": 8039,
+      "name": "8039",
+      "city_code": 56001,
+      "city_name": "Brussels",
+      "country_code": 56,
+      "country_name": "Belgium",
+      "responses": 639,
+      "candidates": {
+        "no_answer": 28,
+        "davankov": 270,
+        "putin": 149,
+        "slutsky": 3,
+        "kharitonov": 14,
+        "invalid": 166,
+        "removed": 9
+      }
+    },
+    {
+      "code": 8112,
+      "name": "8112",
+      "city_code": 372001,
+      "city_name": "Dublin",
+      "country_code": 372,
+      "country_name": "Ireland",
+      "responses": 629,
+      "candidates": {
+        "no_answer": 207,
+        "davankov": 243,
+        "putin": 44,
+        "slutsky": 8,
+        "kharitonov": 7,
+        "invalid": 113,
+        "removed": 7
+      }
+    },
+    {
+      "code": 8079,
+      "name": "8079",
+      "city_code": 208001,
+      "city_name": "Copenhagen",
+      "country_code": 208,
+      "country_name": "Denmark",
+      "responses": 620,
+      "candidates": {
+        "no_answer": 88,
+        "davankov": 319,
+        "putin": 49,
+        "slutsky": 8,
+        "kharitonov": 10,
+        "invalid": 143,
+        "removed": 3
+      }
+    },
+    {
+      "code": 8439,
+      "name": "8439",
+      "city_code": 194001,
+      "city_name": "Nicosia",
+      "country_code": 196,
+      "country_name": "Cyprus",
+      "responses": 620,
+      "candidates": {
+        "no_answer": 90,
+        "davankov": 223,
+        "putin": 225,
+        "slutsky": 14,
+        "kharitonov": 12,
+        "invalid": 52,
+        "removed": 4
+      }
+    },
+    {
+      "code": 8187,
+      "name": "8187",
+      "city_code": 440001,
+      "city_name": "Vilnius",
+      "country_code": 440,
+      "country_name": "Lithuania",
+      "responses": 619,
+      "candidates": {
+        "no_answer": 165,
+        "davankov": 244,
+        "putin": 22,
+        "slutsky": 2,
+        "kharitonov": 13,
+        "invalid": 171,
+        "removed": 2
+      }
+    },
+    {
+      "code": 8270,
+      "name": "8270",
+      "city_code": 703001,
+      "city_name": "Bratislava",
+      "country_code": 703,
+      "country_name": "Slovakia",
+      "responses": 617,
+      "candidates": {
+        "no_answer": 105,
+        "davankov": 323,
+        "putin": 42,
+        "slutsky": 11,
+        "kharitonov": 9,
+        "invalid": 123,
+        "removed": 4
+      }
+    },
+    {
+      "code": 8255,
+      "name": "8255",
+      "city_code": 616001,
+      "city_name": "Warsaw",
+      "country_code": 616,
+      "country_name": "Poland",
+      "responses": 614,
+      "candidates": {
+        "no_answer": 46,
+        "davankov": 350,
+        "putin": 18,
+        "slutsky": 5,
+        "kharitonov": 5,
+        "invalid": 187,
+        "removed": 3
+      }
+    },
+    {
+      "code": 8089,
+      "name": "8089",
+      "city_code": 376001,
+      "city_name": "Haifa / Jerusalem",
+      "country_code": 376,
+      "country_name": "Israel",
+      "responses": 601,
+      "candidates": {
+        "no_answer": 131,
+        "davankov": 240,
+        "putin": 97,
+        "slutsky": 4,
+        "kharitonov": 8,
+        "invalid": 113,
+        "removed": 8
+      }
+    },
+    {
+      "code": 8334,
+      "name": "8334",
+      "city_code": 756001,
+      "city_name": "Bern",
+      "country_code": 756,
+      "country_name": "Switzerland",
+      "responses": 582,
+      "candidates": {
+        "no_answer": 80,
+        "davankov": 260,
+        "putin": 96,
+        "slutsky": 4,
+        "kharitonov": 9,
+        "invalid": 125,
+        "removed": 8
+      }
+    },
+    {
+      "code": 8284,
+      "name": "8284",
+      "city_code": 764001,
+      "city_name": "Bangkok",
+      "country_code": 764,
+      "country_name": "Thailand",
+      "responses": 579,
+      "candidates": {
+        "no_answer": 44,
+        "davankov": 382,
+        "putin": 58,
+        "slutsky": 7,
+        "kharitonov": 17,
+        "invalid": 70,
+        "removed": 1
+      }
+    },
+    {
+      "code": 8010,
+      "name": "8010",
+      "city_code": 36001,
+      "city_name": "Sydney",
+      "country_code": 36,
+      "country_name": "Australia",
+      "responses": 536,
+      "candidates": {
+        "no_answer": 6,
+        "davankov": 288,
+        "putin": 94,
+        "slutsky": 5,
+        "kharitonov": 18,
+        "invalid": 125,
+        "removed": 0
+      }
+    },
+    {
+      "code": 8159,
+      "name": "8159",
+      "city_code": 417001,
+      "city_name": "Bishkek",
+      "country_code": 417,
+      "country_name": "Kyrgyzstan",
+      "responses": 517,
+      "candidates": {
+        "no_answer": 49,
+        "davankov": 226,
+        "putin": 184,
+        "slutsky": 1,
+        "kharitonov": 4,
+        "invalid": 50,
+        "removed": 3
+      }
+    },
+    {
+      "code": 8257,
+      "name": "8257",
+      "city_code": 616002,
+      "city_name": "Krakow",
+      "country_code": 616,
+      "country_name": "Poland",
+      "responses": 512,
+      "candidates": {
+        "no_answer": 56,
+        "davankov": 276,
+        "putin": 28,
+        "slutsky": 7,
+        "kharitonov": 10,
+        "invalid": 134,
+        "removed": 1
+      }
+    },
+    {
+      "code": 8114,
+      "name": "8114",
+      "city_code": 724002,
+      "city_name": "Madrid",
+      "country_code": 724,
+      "country_name": "Spain",
+      "responses": 445,
+      "candidates": {
+        "no_answer": 28,
+        "davankov": 237,
+        "putin": 50,
+        "slutsky": 4,
+        "kharitonov": 5,
+        "invalid": 120,
+        "removed": 1
+      }
+    },
+    {
+      "code": 8326,
+      "name": "8326",
+      "city_code": 191001,
+      "city_name": "Zagreb",
+      "country_code": 191,
+      "country_name": "Croatia",
+      "responses": 313,
+      "candidates": {
+        "no_answer": 78,
+        "davankov": 131,
+        "putin": 43,
+        "slutsky": 4,
+        "kharitonov": 5,
+        "invalid": 52,
+        "removed": 0
+      }
+    },
+    {
+      "code": 8148,
+      "name": "8148",
+      "city_code": 124003,
+      "city_name": "Ottawa",
+      "country_code": 124,
+      "country_name": "Canada",
+      "responses": 311,
+      "candidates": {
+        "no_answer": 132,
+        "davankov": 95,
+        "putin": 42,
+        "slutsky": 1,
+        "kharitonov": 2,
+        "invalid": 35,
+        "removed": 4
+      }
+    },
+    {
+      "code": 8371,
+      "name": "8371",
+      "city_code": 860002,
+      "city_name": "Samarkand",
+      "country_code": 860,
+      "country_name": "Uzbekistan",
+      "responses": 251,
+      "candidates": {
+        "no_answer": 88,
+        "davankov": 45,
+        "putin": 88,
+        "slutsky": 3,
+        "kharitonov": 1,
+        "invalid": 26,
+        "removed": 0
+      }
+    },
+    {
+      "code": 8067,
+      "name": "8067",
+      "city_code": 704001,
+      "city_name": "Hanoi",
+      "country_code": 704,
+      "country_name": "Vietnam",
+      "responses": 238,
+      "candidates": {
+        "no_answer": 44,
+        "davankov": 127,
+        "putin": 35,
+        "slutsky": 3,
+        "kharitonov": 3,
+        "invalid": 26,
+        "removed": 0
+      }
+    },
+    {
+      "code": 8256,
+      "name": "8256",
+      "city_code": 616003,
+      "city_name": "Gdansk",
+      "country_code": 616,
+      "country_name": "Poland",
+      "responses": 232,
+      "candidates": {
+        "no_answer": 37,
+        "davankov": 111,
+        "putin": 12,
+        "slutsky": 2,
+        "kharitonov": 8,
+        "invalid": 58,
+        "removed": 4
+      }
+    },
+    {
+      "code": 8293,
+      "name": "8293",
+      "city_code": 792004,
+      "city_name": "Trabzon",
+      "country_code": 792,
+      "country_name": "Turkey",
+      "responses": 228,
+      "candidates": {
+        "no_answer": 12,
+        "davankov": 175,
+        "putin": 10,
+        "slutsky": 0,
+        "kharitonov": 1,
+        "invalid": 30,
+        "removed": 0
+      }
+    },
+    {
+      "code": 8120,
+      "name": "8120",
+      "city_code": 380003,
+      "city_name": "Genoa",
+      "country_code": 380,
+      "country_name": "Italy",
+      "responses": 193,
+      "candidates": {
+        "no_answer": 42,
+        "davankov": 37,
+        "putin": 92,
+        "slutsky": 1,
+        "kharitonov": 1,
+        "invalid": 20,
+        "removed": 0
+      }
+    },
+    {
+      "code": 8258,
+      "name": "8258",
+      "city_code": 616004,
+      "city_name": "Poznan",
+      "country_code": 616,
+      "country_name": "Poland",
+      "responses": 190,
+      "candidates": {
+        "no_answer": 2,
+        "davankov": 133,
+        "putin": 8,
+        "slutsky": 3,
+        "kharitonov": 4,
+        "invalid": 39,
+        "removed": 1
+      }
+    },
+    {
+      "code": 8241,
+      "name": "8241",
+      "city_code": 554002,
+      "city_name": "Wellington",
+      "country_code": 554,
+      "country_name": "New Zealand",
+      "responses": 132,
+      "candidates": {
+        "no_answer": 50,
+        "davankov": 35,
+        "putin": 15,
+        "slutsky": 2,
+        "kharitonov": 0,
+        "invalid": 30,
+        "removed": 0
+      }
+    },
+    {
+      "code": 8292,
+      "name": "8292",
+      "city_code": 792001,
+      "city_name": "Ankara",
+      "country_code": 792,
+      "country_name": "Turkey",
+      "responses": 95,
+      "candidates": {
+        "no_answer": 16,
+        "davankov": 32,
+        "putin": 35,
+        "slutsky": 1,
+        "kharitonov": 0,
+        "invalid": 11,
+        "removed": 0
+      }
+    },
+    {
+      "code": 8175,
+      "name": "8175",
+      "city_code": 188001,
+      "city_name": "San Jose",
+      "country_code": 188,
+      "country_name": "Costa Rica",
+      "responses": 91,
+      "candidates": {
+        "no_answer": 28,
+        "davankov": 24,
+        "putin": 25,
+        "slutsky": 0,
+        "kharitonov": 3,
+        "invalid": 11,
+        "removed": 0
+      }
+    },
+    {
+      "code": 8294,
+      "name": "8294",
+      "city_code": 792003,
+      "city_name": "Antalya",
+      "country_code": 792,
+      "country_name": "Turkey",
+      "responses": 52,
+      "candidates": {
+        "no_answer": 28,
+        "davankov": 16,
+        "putin": 8,
+        "slutsky": 0,
+        "kharitonov": 0,
+        "invalid": 0,
+        "removed": 0
+      }
+    }
+  ]
+}
