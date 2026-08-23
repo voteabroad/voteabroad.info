@@ -1099,6 +1099,7 @@ li {
   position: relative;
   display: block;
   padding: 264px 0 160px;
+  background: #009aa2;
 }
 .main-slider-two-bg {
   position: absolute;
@@ -1116,7 +1117,7 @@ li {
   height: 100%;
   width: 100%;
   content: "";
-  background: rgba(245, 56, 31, 0.85);
+  background: rgba(0, 154, 162, 0.64);
 }
 .main-slider-two-shape-1 {
   position: absolute;
