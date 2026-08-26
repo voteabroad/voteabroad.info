@@ -100,6 +100,7 @@
 .communique-2026__contacts a {
   color: #007d85;
   font-weight: 700;
+  overflow-wrap: anywhere;
 }
 
 .communique-2026__contacts {
