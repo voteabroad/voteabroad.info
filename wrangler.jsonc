@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "voteabroad-info-preview",
+  "name": "voteabroad-preview",
   "compatibility_date": "2026-09-05",
   "workers_dev": true,
   "preview_urls": true,
