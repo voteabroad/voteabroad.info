@@ -41,7 +41,7 @@ python3 -m http.server 8000
 После этого открыть:
 
 ```text
-http://localhost:8000/#past-projects
+http://localhost:8000/#results-block
 ```
 
 ## Публикация
@@ -50,7 +50,7 @@ http://localhost:8000/#past-projects
 
 ## Preview-деплой в Cloudflare Workers
 
-Production-сайт продолжает публиковаться через GitHub Pages из ветки `gh-pages`. Для предпросмотра используется отдельный Cloudflare Worker `voteabroad-preview` с Workers Static Assets.
+Production-сайт продолжает публиковаться через GitHub Pages из ветки `gh-pages`. Для предпросмотра используется отдельный Cloudflare Worker `voteabroad-info-preview` с Workers Static Assets.
 
 GitHub Actions workflow `.github/workflows/cloudflare-workers-preview.yml` запускается вручную или на pull request в `gh-pages`. Он собирает временную папку `.cloudflare/preview/`, исключая `temp/`, `.git`, `.github`, `.DS_Store` и другие служебные файлы, затем выполняет:
 
@@ -60,7 +60,7 @@ wrangler versions upload --preview-alias <alias>
 
 Это создает Cloudflare preview URL и не меняет production-адрес `voteabroad.info`.
 
-Перед первым запуском preview workflow нужно создать Worker `voteabroad-preview` в Cloudflare. Если удобнее сделать это через CLI, можно один раз выполнить `wrangler deploy` из этой ветки; это затронет только отдельный preview Worker, а не GitHub Pages production.
+Перед первым запуском preview workflow нужно создать Worker `voteabroad-info-preview` в Cloudflare. Если удобнее сделать это через CLI, можно один раз выполнить `wrangler deploy` из этой ветки; это затронет только отдельный preview Worker, а не GitHub Pages production.
 
 Для работы workflow нужно добавить в GitHub repository secrets:
 
