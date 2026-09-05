@@ -1,0 +1,69 @@
+name: Cloudflare Workers Preview
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches:
+      - gh-pages
+    types:
+      - opened
+      - reopened
+      - synchronize
+
+permissions:
+  contents: read
+
+jobs:
+  preview:
+    name: Deploy preview
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Prepare static site
+        run: |
+          mkdir -p .cloudflare/preview
+          rsync -a --delete \
+            --exclude ".git" \
+            --exclude ".github" \
+            --exclude ".cloudflare" \
+            --exclude ".DS_Store" \
+            --exclude "node_modules" \
+            --exclude "temp" \
+            ./ .cloudflare/preview/
+
+      - name: Pick preview alias
+        id: preview
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            alias="pr-${{ github.event.pull_request.number }}"
+          else
+            raw="${GITHUB_REF_NAME:-manual}"
+            alias="$(printf '%s' "$raw" | tr '[:upper:]' '[:lower:]' | sed -E 's/[^a-z0-9-]+/-/g; s/^-+//; s/-+$//; s/-+/-/g' | cut -c1-32)"
+            alias="${alias:-manual}"
+          fi
+
+          if [[ ! "$alias" =~ ^[a-z] ]]; then
+            alias="b-$alias"
+          fi
+
+          echo "alias=$alias" >> "$GITHUB_OUTPUT"
+
+      - name: Upload Worker preview version
+        id: deploy
+        uses: cloudflare/wrangler-action@v4
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: versions upload --preview-alias ${{ steps.preview.outputs.alias }} --message "Preview ${{ github.sha }}"
+
+      - name: Summarize preview
+        run: |
+          echo "### Cloudflare Workers preview" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "Alias: \`${{ steps.preview.outputs.alias }}\`" >> "$GITHUB_STEP_SUMMARY"
+          echo "Preview URL: ${{ steps.deploy.outputs.deployment-url }}" >> "$GITHUB_STEP_SUMMARY"
