@@ -11,6 +11,10 @@
   display: inline-flex;
   gap: 8px;
   margin-bottom: 28px;
+  padding: 6px;
+  border: 1px solid #d8e0ea;
+  border-radius: 8px;
+  background: #eef3f8;
 }
 
 .past-projects-nav__item {
@@ -19,20 +23,26 @@
   justify-content: center;
   min-width: 88px;
   min-height: 44px;
-  border: 1px solid #cfd8e3;
+  border: 1px solid transparent;
   border-radius: 8px;
-  color: #27323f;
-  background: #ffffff;
+  color: #445266;
+  background: transparent;
   font-family: var(--thm-gilroy-bold);
   font-size: 16px;
   line-height: 1;
 }
 
-.past-projects-nav__item:hover,
-.past-projects-nav__item.is-active {
+.past-projects-nav__item:hover {
+  color: #18212d;
+  background: #ffffff;
+}
+
+.past-projects-nav__item.is-active,
+.past-projects-nav__item[aria-current="page"] {
   color: #ffffff;
   background: #332e98;
   border-color: #332e98;
+  box-shadow: 0 8px 18px rgba(51, 46, 152, 0.25);
 }
 
 .past-projects-heading {
@@ -40,20 +50,28 @@
   text-align: left;
 }
 
-.past-projects-heading h4,
-.past-projects-archive h4 {
+.past-projects-heading > h4,
+.past-projects-archive > h4 {
   color: #18212d;
   font-size: 26px;
   line-height: 1.25;
   margin: 0 0 8px;
 }
 
-.past-projects-heading p,
-.past-projects-archive p {
-  color: #445266;
+.past-projects-heading > p,
+.past-projects-archive > p {
+  color: #27323f;
   font-size: 16px;
   line-height: 1.6;
   margin: 0;
+}
+
+#past-projects .past-projects-heading > h4 {
+  color: #ffffff;
+}
+
+#past-projects .past-projects-heading > p {
+  color: rgba(255, 255, 255, 0.86);
 }
 
 .past-projects-map iframe {
